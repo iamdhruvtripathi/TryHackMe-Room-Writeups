@@ -8,9 +8,9 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
 
 ## Contents
 
-| Date | Write-up | TryHackMe Link |
-|------|----------|----------------|
-| 2026-06-05 | Wireshark: The Basics | https://tryhackme.com/room/wiresharkthebasics |
+| Date | Write-up | THM Link |
+|------|----------|----------|
+| 2026-06-05 | [Wireshark: The Basics](Wireshark-The-Basics/README.md) | https://tryhackme.com/room/wiresharkthebasics |
 
 ---
 
