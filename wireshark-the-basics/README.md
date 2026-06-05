@@ -124,7 +124,7 @@ Answer: `r4w8173`
 Go to packet 12 and read the packet comments. What is the answer?
 Note: use md5sum <filename> terminal command to get MD5 hash
 
-- From what we have learnt before, if we go find packet 12 and then click on `Packet comment`, we see the following
+- From what we have learnt before, if we go find packet 12, right click and then click on `Packet comment`, we see the following
 
 <img width="1512" height="816" alt="image" src="https://github.com/user-attachments/assets/654db987-623f-4108-920e-fe24a876c5c2" />
 
