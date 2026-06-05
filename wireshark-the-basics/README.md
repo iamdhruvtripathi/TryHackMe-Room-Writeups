@@ -167,6 +167,60 @@ Look at the expert info section. What is the number of warnings?
 <img width="1146" height="632" alt="image" src="https://github.com/user-attachments/assets/36a4da10-0b11-4de4-bb3d-c40a08bba1c1" />
 
 - Answer: `1636`
-- 
+
 ## Task 5
-## Task 6
+
+Use the "Exercise.pcapng" file to answer the questions.
+Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter.
+Now, look at the filter pane. What is the filter query?
+
+- I went to packet number 4 and right clicked and used the option `Apply as filter`
+
+<img width="1363" height="694" alt="image" src="https://github.com/user-attachments/assets/4763e99d-7956-46c9-a1e5-01a6906704b5" />
+
+- Answer: `http`
+
+What is the number of displayed packets?
+
+- We can see at the bottom right the number of displayed packets
+
+<img width="1006" height="512" alt="image" src="https://github.com/user-attachments/assets/5512fcb6-1dc8-4a66-8767-a6330f009198" />
+
+- Answer: `1089`
+
+Go to packet number 33790, follow the HTTP stream, and look carefully at the responses.
+Looking at the web server's response, what is the total number of artists?
+
+- I went to packet 33790 and right clicked and selected `Follow` and `HTTP stream` which led me here
+
+<img width="1512" height="838" alt="image" src="https://github.com/user-attachments/assets/67c41b4f-cc3d-4240-b242-97ff4377b0bf" />
+
+- I typed in `artists` to filter for the artists and we can see there are exactly 3 artists here
+
+<img width="1145" height="450" alt="image" src="https://github.com/user-attachments/assets/20364c10-43df-4807-bec6-36339d8e3ab5" />
+
+- Answer: `3`
+
+What is the name of the second artist?
+
+- We can see the artists name here
+
+<img width="1273" height="498" alt="image" src="https://github.com/user-attachments/assets/531d6e38-8ee1-4c61-b568-9bad2ecf848e" />
+
+- Answer: `Blad3`
+
+## Skills Learned
+
+* Navigated and analyzed PCAP/PCAPNG files in Wireshark
+* Viewed capture file properties, comments, and hashes
+* Inspected HTTP, TCP, and IPv4 packet details
+* Located specific packets and searched packet contents
+* Analyzed timestamps, TTL values, payload sizes, and HTTP headers
+* Applied display filters and followed HTTP streams
+* Extracted files and HTTP objects from packet captures
+* Used packet comments and Expert Information for analysis
+* Performed basic network traffic and protocol analysis
+
+## Conclusion
+
+This room introduced the fundamentals of Wireshark and packet analysis. Through hands-on exercises, I learned how to inspect network traffic, apply filters, follow protocol streams, and extract useful information from packet captures. These skills provide a strong foundation for network troubleshooting, digital forensics, and cybersecurity investigations
