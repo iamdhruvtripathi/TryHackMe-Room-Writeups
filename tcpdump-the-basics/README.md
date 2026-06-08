@@ -60,7 +60,7 @@ What hostname (subdomain) appears in the first DNS query?
 How many packets have only the TCP Reset (RST) flag set?
 
 - Here, I used the command below to see where only the `tcp-rst` flag was set and piped it to `wc` to count the number of lines it showed
-- To give more of a explanation, `tcp[tcpflags]` is a shorthand way of saying to go directly to the byte containing the TCP flags (which is Byte 13). A a byte is made up of 8 bits and remembering which bit is turned on (1) or off (0) gets a bit annoying and so we are able to use this shorthand to say give the packets where the `tcp-rst` flag is set. In binary, it would be bit 2 that is turned on (1) that indicates the flag is set. An example is `00000100`
+- To give more of a explanation, `tcp[tcpflags]` is a shorthand way of saying to go directly to the byte containing the TCP flags (which is Byte 13). A a byte is made up of 8 bits and remembering which bit is turned on (1) or off (0) gets a bit annoying and so we are able to use this shorthand to say give the packets where the `tcp-rst` flag is set. In binary, it would be bit 2 that is turned on (1) that indicates the `tcp-rst` flag is set. An example is `00000100`
 
   <img width="1306" height="126" alt="image" src="https://github.com/user-attachments/assets/acc34aa3-0a14-4335-b56e-94fd99275408" />
 
