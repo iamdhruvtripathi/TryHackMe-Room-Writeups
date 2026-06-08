@@ -83,7 +83,7 @@ What option must you add to your nmap command to enable debugging?
 
 ## Task 7
 
-What kind of scan will Nmap use if you run nmap MACHINE_IP with local user privileges?
+What kind of scan will Nmap use if you run `nmap MACHINE_IP` with local user privileges?
 
 - For this answer, if running with root privileges, nmap by defualt uses SYN scan but with local user privileges, it uses connect scan and that is because sending TCP SYN packets requires root privileges
 
