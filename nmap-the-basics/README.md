@@ -45,7 +45,7 @@ How many TCP ports are open on the target system at `10.64.138.29`?
 
 - Answer: `6`
 
-Find the listening web server on 10.64.138.29 and access it with your browser. What is the flag that appears on its main page?
+Find the listening web server on `10.64.138.29` and access it with your browser. What is the flag that appears on its main page?
 
 - We know from previous findings that TCP port `8008` is open and the service it is runnning is `http`. Therefore, it must be the web browser and we can connect to it with our browser
 
