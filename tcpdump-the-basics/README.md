@@ -6,7 +6,7 @@
 |  Room Name |  Tcpdump: The Basics |
 |----------|-------|
 | Author | Dhruv Tripathi |
-| Date | 06-06-2026 |
+| Date | 06-07-2026 |
 | Link | [Tcpdump: The Basics](https://tryhackme.com/room/tcpdump) |
 
 # Room Information
