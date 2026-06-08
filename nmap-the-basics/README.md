@@ -27,7 +27,7 @@ It’s time to find out who is listening on the network.
 ## Task 2
 
 
-What is the last IP address that will be scanned when your scan target is 192.168.0.1/27?
+What is the last IP address that will be scanned when your scan target is `192.168.0.1/27`?
 
 - Here, I used the `-sL` option with `nmap` when scanning the target `192.168.0.1/27`. This basically allows us to lists the targets without actually scanning them. The last IP address is listed at the bottom
 
