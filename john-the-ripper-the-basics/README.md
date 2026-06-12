@@ -53,10 +53,10 @@ Learn how to use John the Ripper, a powerful and adaptable hash-cracking tool.
 
 - I used the command
 ```bash
-`john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash1.txt`. 
+john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash1.txt. 
 ```
 
-- Note that `--format=` specifies to `john` to use the standalone hash instead because John support many formats that use MD5 internally such as `MD5-Crypt`, `phpBB hashes`, etc. and can look very similar to `md5` and so we need to specifically state that we are using the plain MD5 digests
+- Note that `--format=` specifies to `john` to use the standalone hash instead because John supports many formats that use MD5 internally such as `MD5-Crypt`, `phpBB hashes`, etc. and can look very similar to `md5` and so we need to specifically state that we are using the plain MD5 digests
 
   <img width="1512" height="216" alt="image" src="https://github.com/user-attachments/assets/6cbd35ce-a1ac-4ffa-90d3-d4599dd022f1" />
 
@@ -246,3 +246,20 @@ john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa_hash.txt
   <img width="1512" height="263" alt="image" src="https://github.com/user-attachments/assets/27aa8b6d-3100-4e86-a8b5-a1e8dbf4cc5b" />
 
 - Answer: `mango`
+
+## Skills Learned
+
+* Used John the Ripper to crack passwords across multiple hash formats
+* Identified hash types and selected the correct `--format` values for cracking
+* Cracked `MD5`, `SHA1`, `SHA256`, `Whirlpool`, and `NTLM` hashes using the RockYou wordlist
+* Enumerated supported formats with `john --list=formats`
+* Combined `/etc/passwd` and `/etc/shadow` using `unshadow` to crack Linux account passwords
+* Used Single Crack Mode to generate username-based password candidates
+* Created and applied custom rules to exploit predictable password complexity patterns
+* Extracted and cracked hashes from password-protected ZIP and RAR archives using `zip2john` and `rar2john`
+* Converted encrypted SSH private keys into crackable hashes with `ssh2john.py`
+* Gained practical experience with common password auditing and cracking workflows
+
+## Conclusion
+
+This room introduced the core functionality of John the Ripper and its role in password auditing. Through hands-on exercises, I identified and cracked multiple hash types, recovered passwords from Linux authentication files, encrypted archives, and SSH private keys, and explored features such as Single Crack Mode and custom rules. Overall, the room provided a solid foundation in password-cracking techniques while reinforcing the importance of secure password practices
