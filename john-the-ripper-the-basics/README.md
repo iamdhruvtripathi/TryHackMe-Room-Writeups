@@ -204,4 +204,27 @@ zip2john secure.zip > zip_hash.txt
 
 - Answer: `THM{w3ll_d0n3_h4sh_r0y4l}`
 ## Task 10
+
+### What is the password for the secure.rar file?
+
+- We type a very similar command similar to the last task
+```bash
+rar2john secure.rar > rar_hash.txt
+```
+  <img width="1512" height="312" alt="image" src="https://github.com/user-attachments/assets/be9d6001-4ae6-4289-bfe1-891a5cd0a90c" />
+
+- Then, we feed that hash format (file) into `john` so it can crack the hash
+```bash
+john --wordlist=/usr/share/wordlists/rockyou.txt rar_hash.txt 
+```
+<img width="1512" height="291" alt="image" src="https://github.com/user-attachments/assets/fab7fc5d-d181-490e-b9c8-a64d91ad973b" />
+
+- Answer: `password`
+
+### What are the contents of the flag inside the rar file?
+
+- We use the password that we cracked to see the content inside the rar file
+
+  <img width="1512" height="336" alt="image" src="https://github.com/user-attachments/assets/6178fa3f-d713-445e-a2b6-f9c210181c8f" />
+
 ## Task 11
