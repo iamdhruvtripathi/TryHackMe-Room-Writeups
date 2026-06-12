@@ -110,6 +110,27 @@ john --format=whirlpool --wordlist=/usr/share/wordlists/rockyou.txt hash4.txt
 
 - Answer: `colossal`
 ## Task 5
+
+### What do we need to set the --format flag to in order to crack this hash?
+
+- We can use the following command to figure which which format flag we need
+```bash
+john --list=formats | grep ntlm
+```
+  <img width="1159" height="85" alt="image" src="https://github.com/user-attachments/assets/fca99348-c495-41b7-aed8-ff1f3e74b3ed" />
+
+- Answer: `nt`
+
+### What is the cracked value of this password?
+
+- I used the following command to crack the hash
+```bash
+john --format=nt --wordlist=/usr/share/wordlists/rockyou.txt ntlm.txt 
+```
+<img width="1512" height="258" alt="image" src="https://github.com/user-attachments/assets/3a757ab2-9a47-40db-aa91-bee48ee5b462" />
+
+- Answer: `mushroom`
+
 ## Task 6
 ## Task 7
 ## Task 8
