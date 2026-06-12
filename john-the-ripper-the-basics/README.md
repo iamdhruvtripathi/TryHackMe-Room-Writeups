@@ -228,3 +228,21 @@ john --wordlist=/usr/share/wordlists/rockyou.txt rar_hash.txt
   <img width="1512" height="336" alt="image" src="https://github.com/user-attachments/assets/6178fa3f-d713-445e-a2b6-f9c210181c8f" />
 
 ## Task 11
+
+### What is the SSH private key password?
+
+- First, we need to get the hash of this private key
+```bash
+/opt/john/ssh2john.py id_rsa > id_rsa_hash.txt
+```
+
+  <img width="1512" height="427" alt="image" src="https://github.com/user-attachments/assets/7de47d5c-758d-4ea4-aa45-72eab4663d95" />
+
+- Then, we feed john the file
+```bash
+john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa_hash.txt 
+```
+
+  <img width="1512" height="263" alt="image" src="https://github.com/user-attachments/assets/27aa8b6d-3100-4e86-a8b5-a1e8dbf4cc5b" />
+
+- Answer: `mango`
