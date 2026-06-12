@@ -132,8 +132,76 @@ john --format=nt --wordlist=/usr/share/wordlists/rockyou.txt ntlm.txt
 - Answer: `mushroom`
 
 ## Task 6
+
+### What is the root password?
+
+- This is a two step process because first we need to combine both `/etc/passwd` and `/etc/shadow` into one file with the command below and save it to a file. This is because `john` can be very particular about the format of the data and so we need to use `unshadow` for this task
+```bash
+unshadow local_passwd local_shadow > unshadow.txt
+```
+- Then, we feed that file into John to crack the root password
+```bash
+john --wordlist=/usr/share/wordlists/rockyou.txt unshadow.txt
+```
+<img width="1512" height="824" alt="image" src="https://github.com/user-attachments/assets/b1658e45-0507-4385-8f9e-fed18341d85f" />
+
+- Answer: `1234`
+
 ## Task 7
+
+### What is Joker’s password?
+
+- First thing we need to do is change the `hash07.txt` file to prepend the name `joker` in front of the hash. This is because `john` needs the data in a specific format for it to actually create the wordlist. This is based on the username `joker` where it mangles the word creating passwords from the username such as: `j0ker`, `Joker`, `joker123`, etc. Also, using the hash identifier website, we identify the hash type as `md5`
+
+  <img width="1512" height="76" alt="image" src="https://github.com/user-attachments/assets/8ae44318-f63b-4b88-b49f-9685f6863a0d" />
+
+- Then we feed `john` the file
+```bash
+john --single --format=raw-md5 hash07.txt 
+```
+
+  <img width="1512" height="244" alt="image" src="https://github.com/user-attachments/assets/96e056c3-86fa-4616-b521-6fb15b5f9cd5" />
+
+- Answer: `Jok3r`
+
 ## Task 8
+
+### What do custom rules allow us to exploit?
+
+- Answer: `password complexity predictability`
+
+### What rule would we use to add all capital letters to the end of the word?
+
+- `Az` takes the characters (such as `123`) and appends it to the word (`cat` would become `cat123`). `[A-Z]` includes only uppercase characters and must be enclosed with `" "`
+
+- Answer: `Az"[A-Z]"`
+
+### What flag would we use to call a custom rule called THMRules?
+
+- Answer: `--rule=THMRules`
+
 ## Task 9
+
+### What is the password for the secure.zip file?
+
+- For this, we use the command below to get the hash
+```bash
+zip2john secure.zip > zip_hash.txt
+```
+  <img width="1512" height="211" alt="image" src="https://github.com/user-attachments/assets/b18223e2-27b4-44f9-a949-2153e602a865" />
+
+- Then, we feed that hash format (file) into `john` so it can crack the hash
+
+  <img width="1512" height="227" alt="image" src="https://github.com/user-attachments/assets/f7a01133-e555-4300-8193-aa6753d48a3a" />
+
+- Answer: `pass123`
+
+### What is the contents of the flag inside the zip file?
+
+- We use the password that we cracked to see the content inside the zip file
+
+  <img width="1512" height="146" alt="image" src="https://github.com/user-attachments/assets/966cecde-ae20-4d01-a5df-a7ec4e223cfc" />
+
+- Answer: `THM{w3ll_d0n3_h4sh_r0y4l}`
 ## Task 10
 ## Task 11
