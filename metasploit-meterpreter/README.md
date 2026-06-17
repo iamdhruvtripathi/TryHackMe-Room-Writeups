@@ -107,3 +107,54 @@ Take a deep dive into Meterpreter, and see how in-memory payloads can be used fo
 <img width="1512" height="826" alt="image" src="https://github.com/user-attachments/assets/c7ffd1f1-001b-47f4-befe-4dff66bbd422" />
 
 - Answer: `TrustNo1`
+
+### Where is the "secrets.txt"  file located? (Full path of the file)
+
+- We can use metepreter's search function and I typed `search -f secrets.txt` to find the file
+
+<img width="751" height="259" alt="image" src="https://github.com/user-attachments/assets/7309593e-d2bc-45e6-8451-379153b155ba" />
+
+- Answer: `c:\Program Files (x86)\Windows Multimedia Platform\secrets.txt`
+
+### What is the Twitter password revealed in the "secrets.txt" file?
+
+- I used the `cat` command to see the contents of the file
+
+<img width="1181" height="101" alt="image" src="https://github.com/user-attachments/assets/4b99b927-af4a-45f3-9efd-7d9c9d308cc3" />
+
+- Answer: `KDSvbsw3849!`
+
+### Where is the "realsecret.txt" file located? (Full path of the file)
+
+- We do the same thing here as the last question
+
+<img width="750" height="212" alt="image" src="https://github.com/user-attachments/assets/67b31b1b-d34d-4bd8-a1a8-3bc614d43e47" />
+
+Answer: `c:\inetpub\wwwroot\realsecret.txt`
+
+### What is the real secret?
+
+- I used the `cat` command once again
+
+<img width="1220" height="79" alt="image" src="https://github.com/user-attachments/assets/f2a41e36-2435-49b5-a802-c41b2972c33b" />
+
+- Answer: `The Flash is the fastest man alive`
+
+##  Skills Learned
+
+* Gained initial access to a Windows host using Metasploit's `psexec` exploit module
+* Established and interacted with Meterpreter sessions for post-exploitation activities
+* Collected host information using Meterpreter commands such as `sysinfo`
+* Enumerated Active Directory domain information using Metasploit post-exploitation modules
+* Identified and analyzed SMB shares through automated enumeration modules
+* Managed Meterpreter sessions and leveraged Metasploit's session handling capabilities
+* Enumerated running processes and migrated Meterpreter into privileged processes
+* Extracted NTLM password hashes from memory using `hashdump`
+* Performed password recovery from NTLM hashes using external cracking resources
+* Searched for and located sensitive files on compromised systems using Meterpreter's file search functionality
+* Retrieved and examined file contents directly through Meterpreter
+* Gained practical experience with common Windows post-exploitation and credential-access techniques
+
+## Conclusion
+
+This room provided a hands-on introduction to Meterpreter and its role in post-exploitation. Through a Meterpreter session, I gathered system and domain information, enumerated network resources, migrated processes, extracted credentials, and located sensitive files on the target machine. Overall, the room demonstrated how Meterpreter's in-memory payloads and extensive post-exploitation features enable efficient system enumeration, credential harvesting, and data discovery during security assessments
