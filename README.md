@@ -6,7 +6,7 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
 
 ---
 
-## Contents
+## Content
 
 | Date | Write-up | THM Link |
 |------|----------|----------|
