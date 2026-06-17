@@ -85,6 +85,8 @@ Take a deep dive into Meterpreter, and see how in-memory payloads can be used fo
 
 <img width="996" height="596" alt="image" src="https://github.com/user-attachments/assets/769ea703-35ef-446b-807b-d5ea7f8fa53c" />
 
+- Answer: `speedster`
+
 ### What is the NTLM hash of the jchambers user?
 
 - For this question, I needed to migrate to the `lsass.exe` process and I listed via `ps` which processes are running
