@@ -14,6 +14,7 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
 | 06-07-2026 | [Tcpdump: The Basics](tcpdump-the-basics/README.md) | https://tryhackme.com/room/tcpdump |
 | 06-08-2026 | [Nmap: The Basics](nmap-the-basics/README.md) | https://tryhackme.com/room/nmap |
 | 06-12-2026 | [John the Ripper: The Basics](john-the-ripper-the-basics/README.md) | https://tryhackme.com/room/johntheripperbasics |
+| 06-16-2026 | [Metasploit: Exploitation](metasploit-exploitation/README.md) | https://tryhackme.com/room/metasploitexploitation |
 ---
 
 ## TryHackMe Profile
