@@ -185,3 +185,21 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 <img width="1059" height="371" alt="image" src="https://github.com/user-attachments/assets/7fbd57e2-871e-4022-954a-c3b28d143a71" />
 
 - Answer: `flag{admin_documents_can_be_valuable}`
+
+## Skills Learned
+
+* Performed network reconnaissance and service enumeration using `nmap`
+* Identified vulnerable services and associated them with known security issues
+* Exploited the `MS17-010 (EternalBlue)` vulnerability against a Windows host
+* Configured and executed Metasploit exploits and payloads
+* Managed Metasploit sessions and upgraded a command shell to a `Meterpreter` session
+* Verified elevated privileges and confirmed `NT AUTHORITY\SYSTEM` access
+* Enumerated running Windows processes and performed process migration
+* Extracted NTLM password hashes using Meterpreter's post-exploitation capabilities
+* Recovered credentials from password hashes through offline cracking
+* Navigated the Windows file system to locate and access sensitive files
+* Applied fundamental Windows post-exploitation and privilege escalation concepts
+
+## Conclusion
+
+The Blue room provided a practical introduction to exploiting the `MS17-010 (EternalBlue)` vulnerability and conducting post-exploitation activities on a Windows host. Through the use of `Metasploit` and `Meterpreter`, I gained hands-on experience with system enumeration, privilege verification, process migration, credential access, and sensitive file discovery. Overall, the room reinforced key penetration testing concepts while demonstrating the impact of unpatched systems
