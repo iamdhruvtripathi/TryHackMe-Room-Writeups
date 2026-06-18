@@ -158,4 +158,30 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 
 ## Task 5
 
+### Flag1? This flag can be found at the system root. 
 
+- If we go all the up to the root directory, we can spot `flag1.txt` here
+
+<img width="933" height="640" alt="image" src="https://github.com/user-attachments/assets/e0327b6b-bf00-4c23-a08a-d5da2004240c" />
+
+- Using `cat` gives us the content of this file
+
+<img width="745" height="50" alt="image" src="https://github.com/user-attachments/assets/34d0fca0-8e10-4f2b-b44f-246424263ea6" />
+
+- Answer: `flag{access_the_machine}`
+
+### Flag2? This flag can be found at the location where passwords are stored within Windows.
+
+- From previous knowledge, we know the `SAM` file stores the Windows passwords and if we `cd` all the way into the config folder via the path `Windows\System32\config`, we can see `flag2.txt` hiding here and using `cat` gives the content. Obviously I couldn't actually read the SAM file but for the purposes of the challenge, the flag was stored in the `config` folder
+
+<img width="743" height="509" alt="image" src="https://github.com/user-attachments/assets/912f328a-7714-4327-983b-18ea8859d955" />
+
+- Answer: `flag{sam_database_elevated_access}`
+
+### flag3? This flag can be found in an excellent location to loot. After all, Administrators usually have pretty interesting things saved. 
+
+- This one was a little tricky. I typed `shell` to get a standard Windows prompt and then `cd` all the way into `C:\Users\Jon\Documents` to get the flag
+
+<img width="1059" height="371" alt="image" src="https://github.com/user-attachments/assets/7fbd57e2-871e-4022-954a-c3b28d143a71" />
+
+- Answer: `flag{admin_documents_can_be_valuable}`
