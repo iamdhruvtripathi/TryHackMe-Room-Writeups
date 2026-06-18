@@ -86,7 +86,33 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 
 - When we selected this module and then did `show options`, we can see the required value to set is `SESSION`
 <img width="920" height="542" alt="image" src="https://github.com/user-attachments/assets/cbceaacc-86cd-4850-89b3-b71f53c0c3d9" />
+
 - Answer: `SESSION`
 
+### Set the required option, you may need to list all of the sessions to find your target here. 
+
+- Using `sessions -i`, we can tell the exploit we ran has a session Id of 1
+
+<img width="747" height="299" alt="image" src="https://github.com/user-attachments/assets/199e9513-dc1a-41e4-ba6d-eb9d8237e35e" />
+
+- We can easily set this modules session to 1 as well via `set SESSION 1`
+
+<img width="745" height="64" alt="image" src="https://github.com/user-attachments/assets/9a2e699f-e8a5-48ce-af20-3a80ba79f7fe" />
+
+### Run! If this doesn't work, try completing the exploit from the previous task once more.
+
+- As we can see, I ran it and it worked. Notice that another meterpreter session has popped up now as id 2
+<img width="745" height="483" alt="image" src="https://github.com/user-attachments/assets/c06fde74-7025-4796-b0d3-81d8998f2221" />
+
+### Once the meterpreter shell conversion completes, select that session for use.
+- I switched to it and BOOM, we are successful
+
+<img width="747" height="93" alt="image" src="https://github.com/user-attachments/assets/b7eeb6cb-6d20-4853-a6da-ff0e01b6bd25" />
+
+
+
+### Once the meterpreter shell conversion completes, select that session for use.
+
+- 
 ## Task 4
 ## Task 5
