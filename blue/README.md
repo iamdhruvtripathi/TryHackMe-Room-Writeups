@@ -143,4 +143,19 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - Answer: `No answer needed`
 
 ## Task 4
+
+### Within our elevated meterpreter shell, run the command 'hashdump'. This will dump all of the passwords on the machine as long as we have the correct privileges to do so. What is the name of the non-default user? 
+
+- If we run `hashdump`, the only non-user here is Jon. Poor Jon got this credentials stolen
+
+<img width="1129" height="258" alt="image" src="https://github.com/user-attachments/assets/355dd0da-6b14-4451-89a1-cd6982c576b3" />
+
+- If we use `crackstation.net`, we can see the cracked NTLM hash
+
+<img width="1512" height="829" alt="image" src="https://github.com/user-attachments/assets/a8cfc67b-95d7-40ed-9db1-e02b4da7bee0" />
+
+- Answer: `alqfna22`
+
 ## Task 5
+
+
