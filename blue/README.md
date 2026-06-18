@@ -74,7 +74,19 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - I backgrounded the shell as directed
 <img width="745" height="68" alt="image" src="https://github.com/user-attachments/assets/c52f9f53-b2ca-4fd9-90b2-69a9a3cabbe5" />
 
-
 ## Task 3
+
+### If you haven't already, background the previously gained shell (CTRL + Z). Research online how to convert a shell to meterpreter shell in metasploit. What is the name of the post module we will use? (Exact path, similar to the exploit we previously selected) 
+
+- From a quick Google search we get the answer
+
+- Answer: `post/multi/manage/shell_to_meterpreter`
+
+### Select this (use MODULE_PATH). Show options, what option are we required to change?
+
+- When we selected this module and then did `show options`, we can see the required value to set is `SESSION`
+<img width="920" height="542" alt="image" src="https://github.com/user-attachments/assets/cbceaacc-86cd-4850-89b3-b71f53c0c3d9" />
+- Answer: `SESSION`
+
 ## Task 4
 ## Task 5
