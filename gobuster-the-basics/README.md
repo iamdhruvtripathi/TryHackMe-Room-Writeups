@@ -97,7 +97,7 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 
 ### Use the commands learned in this task to answer the following question: How many vhosts on the offensivetools.thm domain reply with a status code 200?
 
-- Using the command `gobuster vhost -u "http://10.64.160.231" --domain offensivetools.thm -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --append-domain --exclude-length 250-320` where we try to brute force how many `vhosts` there are on the domain `offensivetools.thm` and `--append-domain` makes sure to append to domain name to every entry from the world list and `exclude-length` filters out false positives
+- Using the command `gobuster vhost -u "http://10.64.160.231" --domain offensivetools.thm -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --append-domain --exclude-length 250-320` where we try to brute force how many `vhosts` there are on the domain `offensivetools.thm` and `--append-domain` makes sure to append to domain name to every entry from the word list and `exclude-length` filters out false positives
 
 <img width="688" height="644" alt="image" src="https://github.com/user-attachments/assets/b3eff631-ede8-4a33-8352-ca27c586d35f" />
 
