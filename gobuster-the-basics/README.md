@@ -101,6 +101,8 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 
 <img width="688" height="644" alt="image" src="https://github.com/user-attachments/assets/b3eff631-ede8-4a33-8352-ca27c586d35f" />
 
+- Answer: `4`
+
 ## Skills Learned
 
 * Learned the basic syntax and usage of Gobuster for web enumeration
