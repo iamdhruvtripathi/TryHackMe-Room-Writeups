@@ -47,7 +47,7 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 
 - Answer: `--no-tls-validation`
 
-### Enumerate the directories of www.offensivetools.thm. Which directory catches your attention?
+### Enumerate the directories of `www.offensivetools.thm`. Which directory catches your attention?
 
 - This one was a bit tricky because I tried this first and it did not work even though the URL was correct
 
