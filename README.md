@@ -16,6 +16,7 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
 | 06-12-2026 | [John the Ripper: The Basics](john-the-ripper-the-basics/README.md) | https://tryhackme.com/room/johntheripperbasics |
 | 06-16-2026 | [Metasploit: Exploitation](metasploit-exploitation/README.md) | https://tryhackme.com/room/metasploitexploitation |
 | 06-18-2026 | [Blue](blue/README.md) | https://tryhackme.com/room/blue |
+| 06-24-2026 | [Gobuster: The Basics](gobuster-the-basics/README.md) | https://tryhackme.com/room/gobusterthebasics |
 ---
 
 ## TryHackMe Profile
