@@ -10,7 +10,7 @@
 | Link | [Gobuster: The Basics](https://tryhackme.com/room/gobusterthebasics) |
 
 # Room Information
-```bash Type: Walkthrough
+```Type: Walkthrough
 Difficulty: Easy
 Tags: -
 Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
