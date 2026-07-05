@@ -6,7 +6,6 @@
 |  Room Name |  Nmap: The Basics |
 |----------|-------|
 | Author | Dhruv Tripathi |
-| Date | 06-08-2026 |
 | Link | [Nmap: The Basics](https://tryhackme.com/room/nmap) |
 
 # Room Information
