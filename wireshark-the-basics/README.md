@@ -39,7 +39,7 @@ Read the "capture file comments". What is the flag?
 
 - I then scrolled down on the `Capture File Comments` pane and found the flag
 
-<img width="902" height="513" alt="image" src="https://github.com/user-attachments/assets/5cf1c35b-4496-45f6-8f1f-b7d408baf124" />
+  <img width="902" height="513" alt="image" src="https://github.com/user-attachments/assets/5cf1c35b-4496-45f6-8f1f-b7d408baf124" />
 
 - Answer: `TryHackMe_Wireshark_Demo`
 
