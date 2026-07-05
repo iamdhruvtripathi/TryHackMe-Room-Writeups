@@ -6,7 +6,6 @@
 |  Room Name |  John the Ripper: The Basics |
 |----------|-------|
 | Author | Dhruv Tripathi |
-| Date | 06-12-2026 |
 | Link | [John the Ripper](https://tryhackme.com/room/johntheripperbasics) |
 
 # Room Information
