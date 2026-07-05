@@ -6,7 +6,6 @@
 |  Room Name |  Wireshark: The Basics |
 |----------|-------|
 | Author | Dhruv Tripathi |
-| Date | 06-05-2026 |
 | Link | [Wireshark: The Basics](https://tryhackme.com/room/wiresharkthebasics) |
 
 # Room Information
