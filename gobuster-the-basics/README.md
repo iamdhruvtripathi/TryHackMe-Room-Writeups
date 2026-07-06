@@ -27,7 +27,7 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 ### I assigned the `10.67.140.183` as the first `nameserver` in the `/etc/resolv-dnsmasq` file and restarted the Dnsmasq service.
 
 <p align="center">
-<img width="733" height="112" alt="image" src="https://github.com/user-attachments/assets/b40306ce-7fd4-49ce-8615-0bbf7dde0b47" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/b40306ce-7fd4-49ce-8615-0bbf7dde0b47" />
 </p>
 
 - Answer: `No answer needed`
@@ -41,7 +41,7 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 - If we do `gobuster --help | grep subdomain`, we get the answer
 
 <p align="center">
-<img width="734" height="65" alt="image" src="https://github.com/user-attachments/assets/7f3f0caf-687a-4cd2-93e7-fbfb179109ce" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/7f3f0caf-687a-4cd2-93e7-fbfb179109ce" />
 </p>
 
 - Answer: `dns`
@@ -55,12 +55,14 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 
 - This one was a bit tricky because I tried this first and it did not work even though the URL was correct
 
-  <img width="1031" height="646" alt="image" src="https://github.com/user-attachments/assets/cf86b2b8-53d3-4969-9424-2f4830309836" />
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/cf86b2b8-53d3-4969-9424-2f4830309836" />
+</p>
 
 - After doing some research, I found out you needed to type the machine IP address instead for it to work. We can see it worked
 
 <p align="center">
-<img width="748" height="699" alt="image" src="https://github.com/user-attachments/assets/1f91cd40-a501-4d65-90a6-ccbed0a2152b" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/1f91cd40-a501-4d65-90a6-ccbed0a2152b" />
 </p>
 
 - Answer: `secret`
@@ -69,18 +71,22 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 
 - We enumerate that directory that we found and it looks like we found two more
 
-  <img width="892" height="656" alt="image" src="https://github.com/user-attachments/assets/cf562ebe-3f2e-4c00-8f8c-d6291c490833" />
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/cf562ebe-3f2e-4c00-8f8c-d6291c490833" />
+</p>
 
 - Then, I enumerated the `/content` directory with the addition of the `-x` option that specifies the file extension we are looking for and looks like we found ourselves the flag
 
 - Note: I had to restart my VM so the IP address changed to `10.64.160.231` but that didn't affect anything
 
-  <img width="975" height="668" alt="image" src="https://github.com/user-attachments/assets/7facf8bc-35a7-4e12-9979-04694701a688" />
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/7facf8bc-35a7-4e12-9979-04694701a688" />
+</p>
 
 - Now, to actually get the flag, we need to use the `curl` command
 
 <p align="center">
-<img width="746" height="75" alt="image" src="https://github.com/user-attachments/assets/020e69e6-dc45-4266-949a-885b24de6112" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/020e69e6-dc45-4266-949a-885b24de6112" />
 </p>
 
 - Answer: `THM{ReconWasASuccess}`
@@ -98,7 +104,7 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 - For this one I also had the same problem of not being able to resolve the domain name they gave us and so I needed to add the option `--resolver 10.64.160.231` for it to work
 
 <p align="center">
-<img width="741" height="664" alt="image" src="https://github.com/user-attachments/assets/b6fc2cb1-3200-4d25-a1b0-ee8c41be52fe" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/b6fc2cb1-3200-4d25-a1b0-ee8c41be52fe" />
 </p>
 
 - Answer: `4`
@@ -110,7 +116,7 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 - Using the command `gobuster vhost -u "http://10.64.160.231" --domain offensivetools.thm -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --append-domain --exclude-length 250-320` where we try to brute force how many `vhosts` there are on the domain `offensivetools.thm` and `--append-domain` makes sure to append to domain name to every entry from the word list and `exclude-length` filters out false positives
 
 <p align="center">
-<img width="688" height="644" alt="image" src="https://github.com/user-attachments/assets/b3eff631-ede8-4a33-8352-ca27c586d35f" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/b3eff631-ede8-4a33-8352-ca27c586d35f" />
 </p>
 
 - Answer: `4`
