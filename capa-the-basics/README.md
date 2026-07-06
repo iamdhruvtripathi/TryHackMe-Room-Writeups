@@ -40,3 +40,44 @@ Note: `-v` enables verbose output or in other words, gives more details in the o
 ### What PowerShell command will you use to read the content of a file?
 
 - Answer: `Get-Content`
+
+### What is the sha256 of cryptbot.bin?
+
+- Let's take a look at the output that was generated via the command `cat .\cryptobot.txt`. We can see the `sha256` value
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/0008c992-f5b8-4950-af50-84be37fae25f" />
+</p>
+
+- Answer: `ae7bc6b6f6ecb206a7b957e4bb86e0d11845c5b2d9f7a00a482bef63b567ce4c`
+
+### What is the Technique Identifier of Obfuscated Files or Information?
+- Looking in the `ATT&CK Technique` section, we can see the answer
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/cc89c9d3-1163-42eb-8fcb-a785c4e40735" />
+</p>
+
+- Answer: `T1027`
+
+### What is the Sub-Technique Identifier of Obfuscated Files or Information::Indicator Removal from Tools?
+
+- Let's look at the line just below it
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/44a0152d-d878-4176-9074-3c06cf6b8237" />
+</p>
+
+- Answer: `T1027.005`
+
+### When CAPA tags a file with this MAEC value, it indicates that it demonstrates behaviour similar to, but not limited to, Activating persistence mechanisms?
+
+- Answer: `Launcher`
+
+Note: MAEC values are a standard way of describing and sharing information about malware. There are two MAEC values: `Launcher` or `Downloader`
+
+### When CAPA tags a file with this MAEC value, it indicates that the file demonstrates behaviour similar to, but not limited to, Fetching additional payloads or resources from the internet?
+
+- Answer: `Downloader`
+
+## Task 4
