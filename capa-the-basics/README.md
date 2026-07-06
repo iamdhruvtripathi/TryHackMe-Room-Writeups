@@ -81,3 +81,16 @@ Note: MAEC values are a standard way of describing and sharing information about
 - Answer: `Downloader`
 
 ## Task 4
+### What serves as a catalogue of malware objectives and behaviours?
+- We know this to be as MBC
+- Answer: `Malware Behavior Catalogue`
+
+###  Which field is based on ATT&CK tactics in the context of malware behaviour?
+- `Objective`
+Note: In the context of malware, the objectives and behaviors are often mapped to the tactics and techniques of the MITRE ATT&CK framework
+
+### What is the Identifier of "Create Process" micro-behavior?
+- Answer: `C0017`
+
+### What is the behaviour with an Identifier of B0009?
+- Answer: `Lab Machine Detection`
