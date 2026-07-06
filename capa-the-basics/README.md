@@ -167,3 +167,17 @@ Note: The Capability is the rule name but without the dashes
 
 ### Which feature of this CAPA Web Explorer allows you to filter options or results?
 - Answer: `Global Search Box`
+
+You can add the following sections to the end of your write-up.
+
+## Summary
+* Learned the fundamentals of CAPA, a malware capability analysis tool that identifies behaviors without requiring full reverse engineering
+* Explored common CAPA command-line options, including `-h` for help, `-v` for verbose output, `-vv` for very verbose output, and `-j` for exporting results as JSON
+* Analyzed CAPA output to interpret metadata such as SHA-256 hashes, MITRE ATT&CK techniques, and MAEC malware classifications
+* Examined how CAPA maps malware behaviors to the Malware Behavior Catalogue (MBC), including objectives, behaviors, and micro-behaviors such as process creation, HTTP communication, and data encoding
+* Learned how CAPA organizes detection rules using Top-Level Namespaces (TLNs and namespaces to categorize behaviors like persistence, anti-analysis, obfuscation, and virtual machine detection
+* Understood the relationship between **Capabilities** and their corresponding YAML rule files making it easier to trace how specific detections are implemented
+* Discovered additional features such as exporting results in JSON format and using CAPA Web Explorer to interactively analyze findings in a web browser
+
+# Conclusion
+This room provided a solid introduction to CAPA and how it can be used to quickly identify the capabilities of a malware sample. Rather than focusing on reverse engineering every instruction, CAPA highlights higher-level behaviors by mapping them to frameworks like MITRE ATT&CK, MAEC, and MBC, making analysis more efficient and standardized. Overall, this room serves as a great foundation in malware analysis, threat hunting, or defensive security tooling
