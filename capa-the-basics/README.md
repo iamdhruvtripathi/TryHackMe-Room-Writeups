@@ -91,21 +91,45 @@ Note: MAEC values are a standard way of describing and sharing information about
 Note: In the context of malware, the objectives and behaviors are often mapped to the tactics and techniques of the MITRE ATT&CK framework
 
 ### What is the Identifier of "Create Process" micro-behavior?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/67727141-f660-4154-95ac-6e528f3e6359" />
+</p>
+
 - Answer: `C0017`
 
 ### What is the behaviour with an Identifier of B0009?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/2b96b452-28b4-41ba-9f08-8d2faa8ec55e" />
+</p>
+
 - Answer: `Lab Machine Detection`
 
 ### Malware can be used to obfuscate data using base64 and XOR. What is the related micro-behavior for this?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/2c139c68-c137-4463-a9d5-a4edb97db62c" />
+</p>
+
 - Answer: `Encode Data`
 
 Note: `base64` and `XOR` are the specific methods under the `Encode Data` micro-behavior
 
 ### Which micro-behavior refers to "Malware is capable of initiating HTTP communications"?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/87c19c15-211d-4a96-bcea-53a167569a9b" />
+</p>
+
 - Answer: `HTTP Communication`
 
 ## Task 5
 ### Which top-level Namespace contains a set of rules specifically designed to detect behaviours, including obfuscation, packing, and anti-debugging techniques exhibited by malware to evade analysis?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/4e0f6c04-4a85-4088-954c-1a15ff0cc1bd" />
+</p>
 
 - Answer: `anti-analysis`
 
@@ -113,17 +137,33 @@ Note: TLNs are the largest category that groups similar kinds of malware behavio
 
 ### Which namespace contains rules to detect lab machine (VM) environments? Note that this is not the TLN or Top-Level Namespace.
 
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/f9c692ce-073a-444c-9967-60f9c54fd399" />
+</p>
+
 - Answer: `anti-vm/vm-detection`
 
 ### Which Top-Level Namespace contains rules related to behaviours associated with maintaining access or persistence within a compromised system? This namespace is focused on understanding how malware can establish and maintain a presence within a compromised environment, allowing it to persist and carry out malicious activities over an extended period.
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/c801cc87-b21e-4130-8c1e-0a9f98d1baa2" />
+</p>
 
 - Answer: `persistence`
 
 ### Which namespace addresses techniques such as String Encryption, Code Obfuscation, Packing, and Anti-Debugging Tricks, which conceal or obscure the true purpose of the code?
 
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/c3f94011-4cd3-44e6-8a69-9af91536819c" />
+</p>
+
 - Answer: `obfuscation`
 
 ### Which Top-Level Namespace Is a staging ground for rules that are not quite polished?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/8fcbfa85-eec0-45e0-b052-6993913e34d3" />
+</p>
 
 - Answer: `nursery`
 
