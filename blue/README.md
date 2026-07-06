@@ -22,7 +22,9 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 ### Scan the machine. (If you are unsure how to tackle this, I recommend checking out the Nmap room)
 - As I have learned from the previous rooms I did, the `nmap` command is `nmap -sV 10.66.170.112`
 
-  <img width="848" height="642" alt="image" src="https://github.com/user-attachments/assets/136df2d5-f080-4c57-8b3a-2d591f674ef1" />
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/136df2d5-f080-4c57-8b3a-2d591f674ef1" />
+</p>
 
 - Answer: `No answer needed`
 
@@ -40,7 +42,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - We can do so via `msfconsole`. As you can see below, we have started Metasploit
 
 <p align="center">
-<img width="748" height="22" alt="image" src="https://github.com/user-attachments/assets/9c16eb85-9808-4826-b07e-cd8680475336" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/9c16eb85-9808-4826-b07e-cd8680475336" />
 </p>
 
 - Answer: `No answer needed`
@@ -49,7 +51,9 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 
 - Since we know the exploit name, we can give a quick search with `search ms17-010` and use that exploit via `use 0`
 
-  <img width="1044" height="448" alt="image" src="https://github.com/user-attachments/assets/8a4c69f3-2f01-4171-8355-542e621b337d" />
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/8a4c69f3-2f01-4171-8355-542e621b337d" />
+</p>
 
 - Answer: `exploit/windows/smb/ms17_010_eternalblue`
 
@@ -58,7 +62,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - We set the `RHOSTS` value to the IP address of the target machine
 
 <p align="center">
-<img width="744" height="110" alt="image" src="https://github.com/user-attachments/assets/e61bf9c2-307c-4bd2-8b28-9d06b841a62a" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/e61bf9c2-307c-4bd2-8b28-9d06b841a62a" />
 </p>
 
 - Answer: `RHOSTS`
@@ -69,13 +73,13 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - We set the payload as directed
 
 <p align="center">
-<img width="751" height="81" alt="image" src="https://github.com/user-attachments/assets/8c391f60-4bea-4359-9d42-069f71001a77" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/8c391f60-4bea-4359-9d42-069f71001a77" />
 </p>
 
 - I was able to successfully run the exploit
 
 <p align="center">
-<img width="749" height="201" alt="image" src="https://github.com/user-attachments/assets/48d32359-c4c9-4cbc-b77a-0a2b5bdbdda8" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/48d32359-c4c9-4cbc-b77a-0a2b5bdbdda8" />
 </p>
 
 - Answer: `No answer needed`
@@ -85,7 +89,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - I backgrounded the shell as directed
 
 <p align="center">
-<img width="745" height="68" alt="image" src="https://github.com/user-attachments/assets/c52f9f53-b2ca-4fd9-90b2-69a9a3cabbe5" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/c52f9f53-b2ca-4fd9-90b2-69a9a3cabbe5" />
 </p>
 
 - Answer: `No answer needed`
@@ -103,7 +107,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - When we selected this module and then did `show options`, we can see the required value to set is `SESSION`
 
 <p align="center">
-<img width="920" height="542" alt="image" src="https://github.com/user-attachments/assets/cbceaacc-86cd-4850-89b3-b71f53c0c3d9" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/cbceaacc-86cd-4850-89b3-b71f53c0c3d9" />
 </p>
 
 - Answer: `SESSION`
@@ -113,13 +117,13 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - Using `sessions -i`, we can tell the exploit we ran has a session Id of 1
 
 <p align="center">
-<img width="747" height="299" alt="image" src="https://github.com/user-attachments/assets/199e9513-dc1a-41e4-ba6d-eb9d8237e35e" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/199e9513-dc1a-41e4-ba6d-eb9d8237e35e" />
 </p>
 
 - We can easily set this modules session to 1 as well via `set SESSION 1`
 
 <p align="center">
-<img width="745" height="64" alt="image" src="https://github.com/user-attachments/assets/9a2e699f-e8a5-48ce-af20-3a80ba79f7fe" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/9a2e699f-e8a5-48ce-af20-3a80ba79f7fe" />
 </p>
 
 
@@ -130,7 +134,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - As we can see, I ran it and it worked. Notice that another meterpreter session has popped up now as id 2
 
 <p align="center">
-<img width="745" height="483" alt="image" src="https://github.com/user-attachments/assets/c06fde74-7025-4796-b0d3-81d8998f2221" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/c06fde74-7025-4796-b0d3-81d8998f2221" />
 </p>
 
 - Answer: `No answer needed`
@@ -139,7 +143,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - I switched to it and BOOM, we are successful
 
 <p align="center">
-<img width="747" height="93" alt="image" src="https://github.com/user-attachments/assets/b7eeb6cb-6d20-4853-a6da-ff0e01b6bd25" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/b7eeb6cb-6d20-4853-a6da-ff0e01b6bd25" />
 </p>
 
 - Answer: `No answer needed`
@@ -149,7 +153,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - If we do open a dos shell and run the command `whoami`, we can indeed confirm that we are escalated to `NT AUTHORITY\SYSTEM`
 
 <p align="center">
-<img width="981" height="311" alt="image" src="https://github.com/user-attachments/assets/a61224af-d67b-4330-8e18-ff1a4fe1e816" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/a61224af-d67b-4330-8e18-ff1a4fe1e816" />
 </p>
 
 
@@ -160,9 +164,8 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - For this question, I selected the process with id `2940`
 
 <p align="center">
-<img width="901" height="619" alt="image" src="https://github.com/user-attachments/assets/6e930096-b284-401a-ab10-e6dbfc66c578" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/6e930096-b284-401a-ab10-e6dbfc66c578" />
 </p>
-
 
 - Answer: `No answer needed`
 
@@ -171,7 +174,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - Yay, it worked
 
 <p align="center">
-<img width="744" height="92" alt="image" src="https://github.com/user-attachments/assets/1213ad12-50d0-43f5-b839-2ce41ba46f51" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/1213ad12-50d0-43f5-b839-2ce41ba46f51" />
 </p>
 
 
@@ -184,13 +187,13 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - If we run `hashdump`, the only non-user here is Jon. Poor Jon got this credentials stolen
 
 <p align="center">
-<img width="1129" height="258" alt="image" src="https://github.com/user-attachments/assets/355dd0da-6b14-4451-89a1-cd6982c576b3" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/355dd0da-6b14-4451-89a1-cd6982c576b3" />
 </p>
 
 - If we use `crackstation.net`, we can see the cracked NTLM hash
 
 <p align="center">
-<img width="1512" height="829" alt="image" src="https://github.com/user-attachments/assets/a8cfc67b-95d7-40ed-9db1-e02b4da7bee0" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/a8cfc67b-95d7-40ed-9db1-e02b4da7bee0" />
 </p>
 
 - Answer: `alqfna22`
@@ -202,13 +205,13 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - If we go all the up to the root directory, we can spot `flag1.txt` here
 
 <p align="center">
-<img width="933" height="640" alt="image" src="https://github.com/user-attachments/assets/e0327b6b-bf00-4c23-a08a-d5da2004240c" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/e0327b6b-bf00-4c23-a08a-d5da2004240c" />
 </p>
 
 - Using `cat` gives us the content of this file
 
 <p align="center">
-<img width="745" height="50" alt="image" src="https://github.com/user-attachments/assets/34d0fca0-8e10-4f2b-b44f-246424263ea6" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/34d0fca0-8e10-4f2b-b44f-246424263ea6" />
 </p>
 
 - Answer: `flag{access_the_machine}`
@@ -218,7 +221,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - From previous knowledge, we know the `SAM` file stores the Windows passwords and if we `cd` all the way into the config folder via the path `Windows\System32\config`, we can see `flag2.txt` hiding here and using `cat` gives the content. Obviously I couldn't actually read the SAM file but for the purposes of the challenge, the flag was stored in the `config` folder
 
 <p align="center">
-<img width="743" height="509" alt="image" src="https://github.com/user-attachments/assets/912f328a-7714-4327-983b-18ea8859d955" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/912f328a-7714-4327-983b-18ea8859d955" />
 </p>
 
 - Answer: `flag{sam_database_elevated_access}`
@@ -228,7 +231,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 - This one was a little tricky. I typed `shell` to get a standard Windows prompt and then `cd` all the way into `C:\Users\Jon\Documents` to get the flag
 
 <p align="center">
-<img width="1059" height="371" alt="image" src="https://github.com/user-attachments/assets/7fbd57e2-871e-4022-954a-c3b28d143a71" />
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/7fbd57e2-871e-4022-954a-c3b28d143a71" />
 </p>
 
 
