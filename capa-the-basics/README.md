@@ -95,3 +95,38 @@ Note: In the context of malware, the objectives and behaviors are often mapped t
 
 ### What is the behaviour with an Identifier of B0009?
 - Answer: `Lab Machine Detection`
+
+### Malware can be used to obfuscate data using base64 and XOR. What is the related micro-behavior for this?
+- Answer: `Encode Data`
+
+Note: `base64` and `XOR` are the specific methods under the `Encode Data` micro-behavior
+
+### Which micro-behavior refers to "Malware is capable of initiating HTTP communications"?
+- Answer: `HTTP Communication`
+
+## Task 5
+### Which top-level Namespace contains a set of rules specifically designed to detect behaviours, including obfuscation, packing, and anti-debugging techniques exhibited by malware to evade analysis?
+
+- Answer: `anti-analysis`
+
+Note: TLNs are the largest category that groups similar kinds of malware behavior. A namespace is a subcategory inside a TLN. Then, there are rule YAML files which are used for detections. Namespaces are a hierarchical way to organizing CAPA rules into categories based on the type of behavior they detect
+
+### Which namespace contains rules to detect lab machine (VM) environments? Note that this is not the TLN or Top-Level Namespace.
+
+- Answer: `anti-vm/vm-detection`
+
+### Which Top-Level Namespace contains rules related to behaviours associated with maintaining access or persistence within a compromised system? This namespace is focused on understanding how malware can establish and maintain a presence within a compromised environment, allowing it to persist and carry out malicious activities over an extended period.
+
+- Answer: `persistence`
+
+### Which namespace addresses techniques such as String Encryption, Code Obfuscation, Packing, and Anti-Debugging Tricks, which conceal or obscure the true purpose of the code?
+
+- Answer: `obfuscation`
+
+### Which Top-Level Namespace Is a staging ground for rules that are not quite polished?
+
+- Answer: `nursery`
+
+### Proceed to the next task for the 2nd part of the discussion!
+
+- Answer: `No answer needed`
