@@ -17,6 +17,7 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
 | [Metasploit: Exploitation](metasploit-exploitation/README.md) | https://tryhackme.com/room/metasploitexploitation |
 | [Blue](blue/README.md) | https://tryhackme.com/room/blue |
 | [Gobuster: The Basics](gobuster-the-basics/README.md) | https://tryhackme.com/room/gobusterthebasics |
+| [CAPA: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/capa-the-basics/README.md) | https://tryhackme.com/room/capabasics |
 ---
 
 ## TryHackMe Profile
