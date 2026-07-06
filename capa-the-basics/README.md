@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://assets.tryhackme.com/img/logo/tryhackme_logo_full.svg" width="150" alt="TryHackMe Logo">
+<img src="https://assets.tryhackme.com/img/logo/tryhackme_logo_full.svg" width="150" alt="TryHackMe Logo">
 </p>
 
 # CAPA: The Basics
@@ -130,3 +130,30 @@ Note: TLNs are the largest category that groups similar kinds of malware behavio
 ### Proceed to the next task for the 2nd part of the discussion!
 
 - Answer: `No answer needed`
+
+## Task 6
+### What rule yaml file was matched if the Capability or rule name is check HTTP status code?
+
+- Answer: `check-http-status-code.yml`
+
+Note: The Capability is the rule name but without the dashes
+
+### What is the name of the Capability if the rule YAML file is reference-anti-vm-strings.yml?
+
+- Answer: `reference anti-VM strings`
+
+### Which TLN or Top-Level Namespace includes the Capability or rule name run PowerShell expression?
+
+- We can see in the output where `run Powershell expression` is located
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/1a10ad45-03d3-4312-b993-bbd763cfe54d" />
+</p>
+
+- Answer: `load-code`
+
+### Check the conditions inside the check-for-windows-sandbox-via-registry.yml rule file from this link (opens in new tab). What is the value of the API that ends in Ex is it looking for?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/1e3e8f69-433d-4316-882a-9bb50a339138" />
+</p>
