@@ -11,7 +11,7 @@
 # Room Information
 ```bash Type: Walkthrough
 Difficulty: Easy
-Tags: -
+Tags: - 
 Meta Tags: Walkthrough, Walk-through, Write-up, Writeup
 Subscription type: Premium
 Description:
