@@ -135,7 +135,9 @@ Note: You will see `This_is_Not_a_Flag_This_is_Not_a_Flag_This_is_Not_a_Flag_Thi
 
 - Then, I opened up terminal and typed the following to get the answer
 
-<img width="658" height="235" alt="image" src="https://github.com/user-attachments/assets/14e674fc-d6c1-4c7a-9cc2-28ed226b3f7a" />
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/14e674fc-d6c1-4c7a-9cc2-28ed226b3f7a" />
+</p>
 
 - Answer: `911cd574a42865a956ccde2d04495ebf`
 
