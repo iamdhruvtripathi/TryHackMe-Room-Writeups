@@ -87,6 +87,7 @@ Note: MAEC values are a standard way of describing and sharing information about
 
 ###  Which field is based on ATT&CK tactics in the context of malware behaviour?
 - `Objective`
+
 Note: In the context of malware, the objectives and behaviors are often mapped to the tactics and techniques of the MITRE ATT&CK framework
 
 ### What is the Identifier of "Create Process" micro-behavior?
