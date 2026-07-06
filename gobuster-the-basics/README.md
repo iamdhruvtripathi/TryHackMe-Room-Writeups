@@ -97,7 +97,9 @@ This room focuses on an introduction to Gobuster, an offensive security tool use
 
 - For this one I also had the same problem of not being able to resolve the domain name they gave us and so I needed to add the option `--resolver 10.64.160.231` for it to work
 
-  <img width="741" height="664" alt="image" src="https://github.com/user-attachments/assets/b6fc2cb1-3200-4d25-a1b0-ee8c41be52fe" />
+<p align="center">
+<img width="741" height="664" alt="image" src="https://github.com/user-attachments/assets/b6fc2cb1-3200-4d25-a1b0-ee8c41be52fe" />
+</p>
 
 - Answer: `4`
 
