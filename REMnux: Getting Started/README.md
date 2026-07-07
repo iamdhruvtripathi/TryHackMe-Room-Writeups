@@ -116,3 +116,48 @@ Note: The `M` means there is a Macro in this data stream
 </p>
 
 - Answer: `GET`
+
+## Task 5
+### What plugin lists processes in a tree based on their parent process ID?
+
+- Answer: `PsTree`
+
+Note: `windows.pstree.PsTree` lists all processes as a hierarchical family tree. It tells us which program started another program (parent-child relationship). For example, this can tell us if a child or parent process is suspicious because certain processes only start other certain processes
+
+### What plugin is used to list all currently active processes in the machine?
+
+- Answer: `PsList`
+
+Note: `windows.pslist.PsList` shows all the current active running processes
+
+### What Linux utility tool can extract the ASCII, 16-bit little-endian, and 16-bit big-endian strings?
+
+- Answer: `strings`
+
+### By running vol3 with the Malfind parameter, what is the first (1st) process identified suspected of having an injected code?
+
+- If we open the text file, we can see the first process listed and under the `Protection Disasm`, it says `PAGE_EXECUTE_READWRITE` which is a little suspicious because this means a piece of memory can read from, write to, and execute code stored in that specific chunk of memory
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/eebbbf79-3568-4a7a-a914-86f1aafa4086" />
+</p>
+
+- Answer: `csrss.exe`
+
+### Continuing from the previous question (Question 4), what is the second (2nd) process identified suspected of having an injected code?
+
+- The second process also with `PAGE_EXECUTE_READWRITE` under the `Protection Disasm` was listed below
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/04edd388-d997-4df5-b84e-7592b1991bc7" />
+</p>
+
+- Answer: `winlogon.exe`
+
+## By running vol3 with the DllList parameter, what is the file path or directory of the binary @WanaDecryptor@.exe?
+
+- I used `grep` to search for the specific file path of the binary as seen below
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/565346fa-d914-4710-96e1-762ecd26f410" />
+</p>
