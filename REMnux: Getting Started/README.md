@@ -79,4 +79,6 @@ Note: This is a Python tool that analyzes `OLE2` files called Structured Storage
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/a8802c3b-6eb4-45a3-8ac9-897cadb7190a" />
 </p>
 
+Note: The `M` means there is a Macro in this data stream
+
 - Answer: `8`
