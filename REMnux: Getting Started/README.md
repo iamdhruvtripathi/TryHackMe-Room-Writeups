@@ -161,3 +161,21 @@ Note: `windows.pslist.PsList` shows all the current active running processes
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/565346fa-d914-4710-96e1-762ecd26f410" />
 </p>
+
+### Skills Learned
+
+* Analyzed malicious Microsoft Office documents using **oledump.py**
+* Identified OLE2 data streams and detected embedded VBA macros
+* Decoded obfuscated PowerShell scripts to identify malware behavior
+* Determined downloaded payloads, execution flow, and file storage locations
+* Examined additional malicious documents to locate macro-containing streams
+* Configured and used **INetSim** to safely emulate internet services during malware analysis
+* Captured and reviewed simulated network activity, including HTTP request methods
+* Utilized **Volatility 3** plugins (**PsTree**, **PsList**, **Malfind**, and **DllList**) for memory analysis
+* Identified suspicious processes exhibiting signs of code injection
+* Located malware binaries within memory artifacts using Volatility and Linux command-line utilities
+* Applied the **strings** utility to extract readable data from binary files and memory artifacts
+
+### Conclusion
+
+The REMnux: Getting Started room provided a practical introduction to the REMnux malware analysis environment and its core forensic tools. Through hands-on analysis of malicious Office documents, PowerShell scripts, simulated network traffic, and Windows memory dumps, I gained experience with malware triage, network emulation, and memory forensics. Overall, the room reinforced essential malware analysis techniques while demonstrating how REMnux can be used to safely investigate suspicious files and system artifacts
