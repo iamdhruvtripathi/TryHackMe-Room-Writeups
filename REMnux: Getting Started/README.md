@@ -56,3 +56,27 @@ Note: This is a Python tool that analyzes `OLE2` files called Structured Storage
 </p>
 
 - Answer: `Doc-3737122pdf.exe`
+
+### During our analysis of the PowerShell script, we noted that a file would be downloaded. Where will the file being downloaded be stored?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/09b448a3-579a-416b-a2f1-e06a2aa6748e" />
+</p>
+
+- Answer: `$TempFile`
+
+### Using the tool, scan another file named possible_malicious.docx located in the `/home/ubuntu/Desktop/tasks/agenttesla/` directory. How many data streams were presented for this file?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/34c41e07-0edf-4222-b626-d1f7cdea5c80" />
+</p>
+
+- Answer: `16`
+
+### Using the tool, scan another file named possible_malicious.docx located in the `/home/ubuntu/Desktop/tasks/agenttesla/` directory. At what data stream number does the tool indicate a macro present?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/a8802c3b-6eb4-45a3-8ac9-897cadb7190a" />
+</p>
+
+- Answer: `8`
