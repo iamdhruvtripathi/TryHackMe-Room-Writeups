@@ -154,7 +154,7 @@ Note: `windows.pslist.PsList` shows all the current active running processes
 
 - Answer: `winlogon.exe`
 
-## By running vol3 with the DllList parameter, what is the file path or directory of the binary @WanaDecryptor@.exe?
+## By running vol3 with the DllList parameter, what is the file path or directory of the binary `@WanaDecryptor@.exe`?
 
 - I used `grep` to search for the specific file path of the binary as seen below
 
