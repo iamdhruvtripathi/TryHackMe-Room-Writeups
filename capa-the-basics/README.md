@@ -216,7 +216,7 @@ You can add the following sections to the end of your write-up.
 * Analyzed CAPA output to interpret metadata such as SHA-256 hashes, MITRE ATT&CK techniques, and MAEC malware classifications
 * Examined how CAPA maps malware behaviors to the Malware Behavior Catalogue (MBC), including objectives, behaviors, and micro-behaviors such as process creation, HTTP communication, and data encoding
 * Learned how CAPA organizes detection rules using Top-Level Namespaces (TLNs and namespaces to categorize behaviors like persistence, anti-analysis, obfuscation, and virtual machine detection
-* Understood the relationship between **Capabilities** and their corresponding YAML rule files making it easier to trace how specific detections are implemented
+* Understood the relationship between Capabilities and their corresponding YAML rule files making it easier to trace how specific detections are implemented
 * Discovered additional features such as exporting results in JSON format and using CAPA Web Explorer to interactively analyze findings in a web browser
 
 # Conclusion
