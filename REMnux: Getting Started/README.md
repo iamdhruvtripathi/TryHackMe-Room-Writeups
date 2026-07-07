@@ -82,3 +82,37 @@ Note: This is a Python tool that analyzes `OLE2` files called Structured Storage
 Note: The `M` means there is a Macro in this data stream
 
 - Answer: `8`
+
+## Task 4
+
+### Download and scan the file named flag.txt from the terminal using the command `sudo wget https://10.64.183.222/flag.txt --no-check-certificate`. What is the flag?
+
+- First, we have to start `inetsim`
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/af302d15-b5aa-478f-b1ec-4fc6de35cc5f" />
+</p>
+
+- Then, we have to download the file via the command given to us
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/ab401435-c8af-4cba-b201-b8421ea776d2" />
+</p>
+
+- Now, we just `cat` the flag
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/f6297644-18ad-4169-87f9-66da9d65ce93" />
+</p>
+
+- Answer: `Tryhackme{remnux_edition}`
+
+### After stopping the inetsim, read the generated report. Based on the report, what URL Method was used to get the file flag.txt?
+
+- We can see the method used below
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/90eed7ad-2e8b-44e4-aa1d-c3207a9d2b82" />
+</p>
+
+- Answer: `GET`
