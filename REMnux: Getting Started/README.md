@@ -164,17 +164,17 @@ Note: `windows.pslist.PsList` shows all the current active running processes
 
 ### Skills Learned
 
-* Analyzed malicious Microsoft Office documents using **oledump.py**
+* Analyzed malicious Microsoft Office documents using oledump.py
 * Identified OLE2 data streams and detected embedded VBA macros
 * Decoded obfuscated PowerShell scripts to identify malware behavior
 * Determined downloaded payloads, execution flow, and file storage locations
 * Examined additional malicious documents to locate macro-containing streams
-* Configured and used **INetSim** to safely emulate internet services during malware analysis
+* Configured and used INetSim to safely emulate internet services during malware analysis
 * Captured and reviewed simulated network activity, including HTTP request methods
-* Utilized **Volatility 3** plugins (**PsTree**, **PsList**, **Malfind**, and **DllList**) for memory analysis
+* Utilized Volatility 3 plugins (PsTree, PsList, Malfind, and DllList) for memory analysis
 * Identified suspicious processes exhibiting signs of code injection
 * Located malware binaries within memory artifacts using Volatility and Linux command-line utilities
-* Applied the **strings** utility to extract readable data from binary files and memory artifacts
+* Applied the strings utility to extract readable data from binary files and memory artifacts
 
 ### Conclusion
 
