@@ -221,7 +221,7 @@ Note: `RijndaelManaged` is a class in the Microsoft `.NET` framework that provid
 
 Note: TryHackMe had you type the IP address with `[.]` in betweens
 
-Answer: `47[.]120[.]46[.]210`
+- Answer: `47[.]120[.]46[.]210`
 
 ### What is the destination port number used by cobaltstrike.exe when connecting to its C2 IP Address?
 
