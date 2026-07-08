@@ -159,6 +159,8 @@ Note: A lower entropy means more readable code and higher means it is packed and
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/cee78e6c-2253-41d8-9579-6e3c1d0a4781" />
 </p>
 
+- Answer: `7.999`
+
 ### Using PEStudio, open the file windows.exe, then go to manifest (administrator section). What is the value under requestedExecutionLevel?
 
 <p align="center">
