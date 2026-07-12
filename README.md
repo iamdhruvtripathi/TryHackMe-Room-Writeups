@@ -22,9 +22,9 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
   - [Offensive Security Tooling](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/Offensive%20Security%20Tooling)
       - [Gobuster: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Offensive%20Security%20Tooling/gobuster-the-basics/README.md)
   - [Defensive Security Tooling](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/Defensive%20Security%20Tooling)
-    - [CAPA: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/capa-the-basics/README.md)
-    -  [REMnux: Getting Started](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/REMnux%3A%20Getting%20Started/README.md)
-    -  [FlareVM: Arsenal of Tools](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/FlareVM%3A%20Arsenal%20of%20Tools/README.md)
+    - [CAPA: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Defensive%20Security%20Tooling/capa-the-basics/README.md)
+    -  [REMnux: Getting Started](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Defensive%20Security%20Tooling/REMnux%3A%20Getting%20Started/README.md)
+    -  [FlareVM: Arsenal of Tools](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Defensive%20Security%20Tooling/capa-the-basics/README.md)
 ## TryHackMe Profile
 
 Profile: [https://tryhackme.com/](https://tryhackme.com/p/dhruv.tr03)
