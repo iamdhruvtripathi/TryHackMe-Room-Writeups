@@ -17,7 +17,7 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
     - [John the Ripper: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Cryptography/john-the-ripper-the-basics/README.md)
   - [Exploitation Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/Exploitation%20Basics)
     - [Metasploit: Exploitation](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/Exploitation%20Basics/metasploit-exploitation/README.md)
-    - [Metasploit: Meterpeter](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/Exploitation%20Basics/metasploit-meterpreter)
+    - [Metasploit: Meterpeter](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Exploitation%20Basics/metasploit-meterpreter/README.md)
     - [Blue](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Exploitation%20Basics/blue/README.md)
   - [Offensive Security Tooling](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/Offensive%20Security%20Tooling)
       - [Gobuster: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Offensive%20Security%20Tooling/gobuster-the-basics/README.md)
