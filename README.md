@@ -18,12 +18,12 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
   - [Exploitation Basics](tcpdump-the-basics/README.md)
     - [Metasploit: Exploitation](metasploit-exploitation/README.md)
     - [Blue](blue/README.md)
+  - [Offensive Security Tooling](tcpdump-the-basics/README.md)
+      - [Gobuster: The Basics](gobuster-the-basics/README.md)
   - [Defensive Security Tooling](tcpdump-the-basics/README.md)
     - [CAPA: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/capa-the-basics/README.md)
     -  [REMnux: Getting Started](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/REMnux%3A%20Getting%20Started/README.md)
     -  [FlareVM: Arsenal of Tools](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/FlareVM%3A%20Arsenal%20of%20Tools/README.md)
-  - [Offensive Security Tooling](tcpdump-the-basics/README.md)
-      - [Gobuster: The Basics](gobuster-the-basics/README.md)
 ## TryHackMe Profile
 
 Profile: [https://tryhackme.com/](https://tryhackme.com/p/dhruv.tr03)
