@@ -5,7 +5,7 @@
 ## Pre-Security
 
 <p align="center">
-<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/836a466e-cf50-4697-8a1e-035ab44ca87e" />
+<img width="90%" height="90%" alt="Pre-Sec Cert_page-0001" src="https://github.com/user-attachments/assets/9f00e4d4-4b4e-4e86-a0de-032abad2def3" />
 </p>
 
 ## Cybersecurity 101
