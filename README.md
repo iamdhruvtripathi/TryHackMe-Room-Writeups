@@ -17,6 +17,7 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
     - [John the Ripper: The Basics](john-the-ripper-the-basics/README.md)
   - [Exploitation Basics](tcpdump-the-basics/README.md)
     - [Metasploit: Exploitation](metasploit-exploitation/README.md)
+    - [Metasploit: Meterpeter](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Exploitation%20Basics/metasploit-meterpreter/README.md)
     - [Blue](blue/README.md)
   - [Offensive Security Tooling](tcpdump-the-basics/README.md)
       - [Gobuster: The Basics](gobuster-the-basics/README.md)
