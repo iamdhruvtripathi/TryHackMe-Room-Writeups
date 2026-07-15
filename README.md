@@ -25,6 +25,8 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
     - [CAPA: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Defensive%20Security%20Tooling/capa-the-basics/README.md)
     -  [REMnux: Getting Started](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Defensive%20Security%20Tooling/REMnux%3A%20Getting%20Started/README.md)
     -  [FlareVM: Arsenal of Tools](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Defensive%20Security%20Tooling/capa-the-basics/README.md)
+  - [SOC Level 1](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/SOC%20Level%201)
+    - [SOC L1 Alert Triage](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/SOC%20Level%201/SOC%20L1%20Alert%20Triage/README.md)  
 ## TryHackMe Profile
 
 Profile: [https://tryhackme.com/](https://tryhackme.com/p/dhruv.tr03)
