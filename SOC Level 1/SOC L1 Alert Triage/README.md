@@ -52,3 +52,11 @@ Learn more about SOC alerts and build a systematic approach to efficiently triag
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/a04608d1-dec2-43b7-901c-ddbae20d30fa" />
 </p>
+
+- Answer: `False Positive`
+
+### What user was mentioned in the "Unusual VPN Login Location" alert?
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/c1d1e68d-b854-452f-aa55-3a347ef6bf92" />
+</p>
