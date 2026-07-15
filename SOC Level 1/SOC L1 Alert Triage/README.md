@@ -107,7 +107,7 @@ Learn more about SOC alerts and build a systematic approach to efficiently triag
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/f6cb9f37-4c9f-42bb-a3c7-fdf29448cddd" />
 </p>
 
-- Answer: `THM{how_could_this_user_fall_for_it?}`
+- Answer: `THM{looks_like_lots_of_zoom_meetings}`
 
 ### Which flag did you receive after you correctly triaged the second-priority alert?
 
@@ -122,6 +122,8 @@ Learn more about SOC alerts and build a systematic approach to efficiently triag
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/d17669d3-d476-4a6f-a763-47a3f21f375e" />
 </p>
+
+- Answer: `THM{how_could_this_user_fall_for_it?}`
 
 ### Which flag did you receive after you correctly triaged the third-priority alert?
 
