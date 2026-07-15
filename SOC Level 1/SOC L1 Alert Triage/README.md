@@ -84,7 +84,7 @@ Learn more about SOC alerts and build a systematic approach to efficiently triag
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/59d96cb5-f3ed-4146-909e-265ac8edc283" />
 </p>
 
-- We can see the select alert name and that I assigned myself to it
+- We can see the selected alert name and that I assigned myself to it
 
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/3bb84106-3e98-4997-a999-cc8432c145f5" />
