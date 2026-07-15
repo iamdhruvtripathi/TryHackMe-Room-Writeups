@@ -27,7 +27,7 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
     -  [FlareVM: Arsenal of Tools](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Defensive%20Security%20Tooling/capa-the-basics/README.md)
 ### SOC Level 1
   - [SOC Team Internals](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/SOC%20Team%20Internals)
-    - [SOC L1 Alert Triage](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/SOC%20Level%201/SOC%20L1%20Alert%20Triage/README.md)  
+    - [SOC L1 Alert Triage](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/SOC%20Team%20Internals/SOC%20L1%20Alert%20Triage/README.md)  
 ## TryHackMe Profile
 
 Profile: [https://tryhackme.com/](https://tryhackme.com/p/dhruv.tr03)
