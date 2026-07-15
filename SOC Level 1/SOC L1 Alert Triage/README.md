@@ -60,3 +60,28 @@ Learn more about SOC alerts and build a systematic approach to efficiently triag
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/c1d1e68d-b854-452f-aa55-3a347ef6bf92" />
 </p>
+
+- Answer: `M.Clark`
+
+## Task 4
+### Should you first prioritise medium over low severity alerts? (Yea/Nay)
+
+- We should always prioritize more urgent alerts over less urgent ones
+
+- Answer: `Yea`
+
+### Should you first take the newest alerts and then the older ones? (Yea/Nay)
+
+- The idea with this one that with the older alerts, the malicious actor has progressed further compared to a malicious actor that is just starting making the older one more urgent
+
+- Answer: `Nay`
+
+### Assign yourself to the first-priority alert and change its status to In Progress. The name of your selected alert will be the answer to the question.
+
+- I picked the most critical alert which was `Potential Data Exfiltration`
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/59d96cb5-f3ed-4146-909e-265ac8edc283" />
+</p>
+
+- Answer: `Potential Data Exfiltration`
