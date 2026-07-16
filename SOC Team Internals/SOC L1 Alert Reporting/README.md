@@ -21,3 +21,12 @@ Learn how to properly report, escalate, and communicate about high-risk SOC aler
 ### I am ready to start!
 
 - Answer: `No answer needed`
+
+## Task 2
+### What is the process of passing suspicious alerts to an L2 analyst for review?
+
+- Answer: `Alert Escalation`
+
+### What is the process of formally describing alert details and findings?
+
+- Answer: `Alert Reporting`
