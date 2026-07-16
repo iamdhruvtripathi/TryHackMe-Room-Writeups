@@ -77,7 +77,7 @@ Learn how to properly report, escalate, and communicate about high-risk SOC aler
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/f429e2a9-ba3a-4e10-9132-201c41bfd62c" />
 </p>
 
-- Answer: `THM{nice_attempt_faking_microsoft_support`
+- Answer: `THM{nice_attempt_faking_microsoft_support}`
 
 ## Task 4
 ### Who is your current L2 in the SOC dashboard (opens in new tab) that you can assign (escalate) the alerts to?
