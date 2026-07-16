@@ -80,3 +80,73 @@ Learn how to properly report, escalate, and communicate about high-risk SOC aler
 - Answer: `THM{nice_attempt_faking_microsoft_support`
 
 ## Task 4
+### Who is your current L2 in the SOC dashboard (opens in new tab) that you can assign (escalate) the alerts to?
+
+- There was only one L2 analyst here
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/812210ac-d2a4-4718-bf3d-ef90a091b779" />
+</p>
+
+- Answer: `E.Fleming`
+
+### What flag did you receive after correctly escalating the alert from the previous task to L2? Note: Set the right assignee and add an intermediate verdict (TP or FP)
+
+- We change the `Assignee` value to `E.Fleming (L2)`
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/9a38a25f-95fe-4aec-82d5-cbf74116155b" />
+</p>
+
+- We get the flag after we set the correct value
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/7dbf50b2-8a84-453d-bd35-47d8f61dcbc4" />
+</p>
+
+- Answer: `THM{good_job_escalating_your_first_alert}`
+
+### Now, investigate the second new alert and provide a detailed alert comment.
+What flag did you get after escalating this alert according to the workflow?
+
+- After providing a detailed alert comment, we get the flag
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/25a8e295-0b3e-48c7-8d3b-da9bcf77b2e1" />
+</p>
+
+- Here was the comment
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/e3d3156e-3464-456d-814a-5715bf7de7f5" />
+</p>
+
+- Answer: `THM{looks_like_webshell_via_old_exchange}`
+
+## Task 5
+### Should you first try to contact your manager in case of a critical threat (Yea/Nay)?
+
+- Usually, its L2 to L3 and then the manager
+
+- Answer: `Nay`
+
+### Should you immediately contact your L2 if you think you missed the attack (Yea/Nay)?
+
+- Answer: `Yea`
+
+## Skills Learned
+
+* Learned the role of alert reporting and how accurate documentation supports effective incident response and communication within a SOC
+* Understood the difference between alert reporting (documenting findings) and alert escalation (transferring investigations to higher-tier analysts)
+* Gained experience navigating a SOC dashboard to investigate alerts and identify relevant evidence
+* Developed the ability to recognize phishing indicators such as SPF/DKIM failures, spoofed senders, suspicious attachments, and social engineering tactics
+* Practiced using the Five Ws (Who, What, When, Where, and Why) framework to produce clear and structured incident reports
+* Learned to document investigation findings through detailed analyst comments and supporting evidence
+* Gained experience managing the SOC workflow by assigning alerts, updating statuses, and applying appropriate verdicts (True Positive/False Positive)
+* Practiced escalating alerts to L2 analysts while providing sufficient context to support continued investigation
+* Reinforced incident response best practices by following the proper escalation chain and established SOC procedures
+* Improved technical communication by writing concise, actionable reports for other analysts
+
+## Conclusion
+
+This room introduced the operational responsibilities of a Tier 1 SOC analyst, emphasizing documentation, communication, and proper escalation alongside technical analysis. By investigating phishing and web shell alerts, writing structured reports, assigning verdicts, and escalating incidents appropriately, it demonstrated how effective reporting enables efficient incident response. Overall, the room highlighted that clear documentation and adherence to SOC workflows are essential skills for successful security operations
