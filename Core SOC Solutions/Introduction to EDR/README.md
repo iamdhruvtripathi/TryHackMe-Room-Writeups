@@ -101,4 +101,11 @@ Learn the fundamentals of EDR and explore its features and working.
 - Answer: `registry`
 
 ## Task 6
+
+### Which feature of the EDR helps you identify threats based on known malicious behaviours? 
+
+- EDR flags any activity that matches any known IOC An example is if a downloaded executable file has a hash that is matched in the threat intelligence feed which is then flagged by the EDR
+
+- Answer: `IOC Matching`
+
 ## Task 7
