@@ -109,3 +109,67 @@ Learn the fundamentals of EDR and explore its features and working.
 - Answer: `IOC Matching`
 
 ## Task 7
+
+### Which tool was launched by CMD.exe to download the payload on DESKTOP-HR01?
+
+- I first selected the top most alert associated with `DESKTOP-HR01`
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/5cbd4c11-62ea-4acf-b73c-d4f0e5c7b92c" />
+</p>
+
+- We can see what tool was launched by `CMD.exe`
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/4c88b4e0-cfd9-45c4-afd0-fa3fb6249f38" />
+</p>
+
+- Answer: `CURL.exe`
+
+### What is the absolute path to the downloaded malware on the DESKTOP-HR01 machine?
+
+- If we click on `IOC/Indicators` at the top, we can see at what location the executable is located at
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/ff874d4d-b01e-4c25-83c5-6aab44e1961c" />
+</p>
+
+- Answer: `C:\Users\Public\install.exe`
+
+### What is the absolute path to the suspicious syncsvc.exe on the WIN-ENG-LAPTOP03 machine?
+
+- I clicked on the alert associated with `WIN-ENG-LAPTOP03`
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/d2f54633-80b1-4bad-859f-2551fb580a8a" />
+</p>
+
+- On the `IOC/Indicators` tab, we see where the executable is located
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/725c758b-0791-4cf6-a3b4-bc36558cc719" />
+</p>
+
+- Answer: `C:\Users\haris.khan\AppData\Local\Temp\syncsvc.exe`
+
+### On which URL was the exfiltration attempt being made on WIN-ENG-LAPTOP03?
+
+- I clicked on the `Process Info` tab and the `syncsvc.exe` circle and we can see where the attacker attempted to exfilrate the data to
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/8b321bbd-3daf-4149-8fad-165dd0c368da" />
+</p>
+
+- Answer: `https://files-wetransfer.com/upload/session/ab12cd34ef56/dump_2025.dmp`
+
+### What was UpdateAgent.exe labelled by Threat Intel on DESKTOP-DEV01?
+
+- I clicked on the alert associated with `DESKTOP-DEV01`
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/a98d9875-f48a-4587-b869-e710885eaf27" />
+</p>
+
+- If we click on the `Process Info` tab and then the `UpdateAgent.exe` circle, we see the `Threat Intel` information
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/39bd0556-c65d-4bb9-b0d5-a581514e74a8" />
+</p>
