@@ -44,3 +44,34 @@ Learn the fundamentals of EDR and explore its features and working.
 </p>
 
 - Answer: `cmd.exe`
+
+## Task 3
+### In the given analogy, what presents an AV?
+
+- In the given analogy, we see what it refers to. What this is saying is an attacker can sneak through basic security checks without getting detected through the initial entry point or if the AV doesn't find a matching signature, it lets the attacker through
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/107dbac5-f1d0-4e96-86a6-5ccab1680bb1" />
+</p>
+
+- Answer: `immigration check`
+
+### Which legitimate process was hijacked by the attacker in the scenario?
+
+- In the scenario breakdown, we can see the payload being injected into this specific process
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/4b488399-0bf5-46d7-a506-9c867494557d" />
+</p>
+
+- Answer: `svchost.exe`
+
+### Which security solution might mark this activity as clean?
+
+- We can see in this table that the `Antivirus` will mark it clean because it does not monitor memory injections unlike an EDR which does
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/bd4a7d12-e65b-4dac-a970-0d274b0255fa" />
+</p>
+
+- Answer: `Antivirus`
