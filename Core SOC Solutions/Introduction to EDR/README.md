@@ -175,3 +175,19 @@ Learn the fundamentals of EDR and explore its features and working.
 </p>
 
 - Answer: `Known internal IT utility tool`
+
+## Skills Learned
+
+* Understood the purpose of Endpoint Detection and Response (EDR) and how it differs from traditional antivirus solutions
+* Learned how EDR provides endpoint visibility by collecting telemetry such as processes, file activity, registry changes, network connections, and user actions
+* Explored process trees to trace process execution and identify parent-child relationships during investigations
+* Identified how attackers abuse legitimate processes through techniques such as process injection and why EDR can detect these behaviors
+* Gained an understanding of EDR architecture, including the role of agents (sensors) in collecting and forwarding endpoint telemetry
+* Learned the importance of different telemetry sources, including network connections for detecting command-and-control (C2) activity and the Windows registry for monitoring configuration changes
+* Explored IOC matching and threat intelligence to identify known malicious files, processes, and behaviors
+* Practiced investigating EDR alerts by analyzing process information, indicators of compromise, executable paths, URLs, and threat intelligence labels
+* Improved skills in tracing malicious activity from initial execution through payload download and attempted data exfiltration
+
+## Conclusion
+
+This room introduced the core concepts of Endpoint Detection and Response and demonstrated how EDR extends beyond the capabilities of traditional antivirus solutions by continuously monitoring endpoint activity and behavioral telemetry. Through hands-on investigation of simulated alerts, I learned how to analyze process trees, review indicators of compromise, identify suspicious file locations, examine network activity, and leverage threat intelligence to understand attacker behavior. Overall, the room provided a solid foundation in EDR fundamentals and reinforced the importance of endpoint visibility and behavioral analysis in modern threat detection and incident response
