@@ -77,3 +77,6 @@ Learn the fundamentals of EDR and explore its features and working.
 - Answer: `Antivirus`
 
 ## Task 4
+## Task 5
+## Task 6
+## Task 7
