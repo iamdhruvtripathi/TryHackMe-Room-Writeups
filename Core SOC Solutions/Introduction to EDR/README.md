@@ -152,7 +152,7 @@ Learn the fundamentals of EDR and explore its features and working.
 
 ### On which URL was the exfiltration attempt being made on WIN-ENG-LAPTOP03?
 
-- I clicked on the `Process Info` tab and the `syncsvc.exe` circle and we can see where the attacker attempted to exfilrate the data to
+- I clicked on the `Process Info` tab and the `syncsvc.exe` circle and we can see where the attacker attempted to exfiltrate the data to
 
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/8b321bbd-3daf-4149-8fad-165dd0c368da" />
