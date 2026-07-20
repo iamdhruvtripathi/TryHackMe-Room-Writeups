@@ -29,6 +29,8 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
   - [SOC Team Internals](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/SOC%20Team%20Internals)
     - [SOC L1 Alert Triage](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/SOC%20Team%20Internals/SOC%20L1%20Alert%20Triage/README.md)
     - [SOC L1 Alert Reporting](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/SOC%20Team%20Internals/SOC%20L1%20Alert%20Reporting/README.md)
+  - [Core SOC Solutions](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/Core%20SOC%20Solutions)
+    - [Introduction to EDR](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Core%20SOC%20Solutions/Introduction%20to%20EDR/README.md)  
 ## TryHackMe Profile
 
 Profile: [https://tryhackme.com/](https://tryhackme.com/p/dhruv.tr03)
