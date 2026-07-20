@@ -42,3 +42,5 @@ Learn the fundamentals of EDR and explore its features and working.
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/977c77e6-8c84-4de3-bcba-198834854fff" />
 </p>
+
+- Answer: `cmd.exe`
