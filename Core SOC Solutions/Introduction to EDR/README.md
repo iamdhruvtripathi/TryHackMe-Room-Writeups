@@ -173,3 +173,5 @@ Learn the fundamentals of EDR and explore its features and working.
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/39bd0556-c65d-4bb9-b0d5-a581514e74a8" />
 </p>
+
+- Answer: `Known internal IT utility tool`
