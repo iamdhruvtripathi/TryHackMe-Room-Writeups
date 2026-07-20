@@ -89,5 +89,16 @@ Learn the fundamentals of EDR and explore its features and working.
 - Answer: `sensor`
 
 ## Task 5
+
+### Which telemetry data helps in detecting C2 communications?
+
+- Network Connections telemetry data can help with any identified connections to a C2 server, unusual port usage, data exfiltration, or lateral movement within the network
+
+- Answer: `Network Connections`
+
+### Where are the configuration settings of a Windows system primarily stored?
+
+- Answer: `registry`
+
 ## Task 6
 ## Task 7
