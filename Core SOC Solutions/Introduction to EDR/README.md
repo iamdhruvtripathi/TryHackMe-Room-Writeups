@@ -77,6 +77,17 @@ Learn the fundamentals of EDR and explore its features and working.
 - Answer: `Antivirus`
 
 ## Task 4
+
+## Which component of the EDR is responsible for collecting telemetry from the endpoints?
+
+- EDR agents sit on each endpoint and send information about all activities to the central EDR console
+
+- Answer: `Agent`
+
+## An EDR agent is also known as a?
+
+- Answer: `sensor`
+
 ## Task 5
 ## Task 6
 ## Task 7
