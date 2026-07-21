@@ -39,6 +39,16 @@ Understand how SOC analysts use Splunk for log investigations.
 
 ## Task 4
 
+### In the Add Data tab, which option is used to collect data from files and ports?
 
+- I clicked on the `Add Data` quick link
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/78a792c7-6184-416b-9c35-4c3a0b15189c" />
+</p>
+
+- We see the option listed below
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/d34074a1-9be2-49c5-9f1a-ef82ea55f592" />
+</p>
 
 ## Task 5
