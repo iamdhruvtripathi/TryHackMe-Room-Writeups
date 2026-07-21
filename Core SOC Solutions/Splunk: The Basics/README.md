@@ -30,5 +30,15 @@ Understand how SOC analysts use Splunk for log investigations.
 - Answer: `No answer needed`
 
 ## Task 3
+
+### Which component is used to collect and send data over the Splunk instance?
+
+- The Splunk Forwarder is lightweight agent installed on endpoints that collects data and sends it to the Splunk instance
+
+- Answer: `Forwarder`
+
 ## Task 4
+
+
+
 ## Task 5
