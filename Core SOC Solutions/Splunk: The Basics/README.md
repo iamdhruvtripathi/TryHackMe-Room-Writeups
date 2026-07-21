@@ -24,6 +24,11 @@ Understand how SOC analysts use Splunk for log investigations.
 - Answer: `No answer needed`
 
 ## Task 2
+
+### Connect with the lab.
+
+- Answer: `No answer needed`
+
 ## Task 3
 ## Task 4
 ## Task 5
