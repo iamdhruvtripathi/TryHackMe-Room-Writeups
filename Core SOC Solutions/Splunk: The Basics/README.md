@@ -51,4 +51,6 @@ Understand how SOC analysts use Splunk for log investigations.
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/d34074a1-9be2-49c5-9f1a-ef82ea55f592" />
 </p>
 
+- Answer: `Monitor`
+
 ## Task 5
