@@ -146,5 +146,7 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/6dbe9634-8d3e-414d-84c2-40cf9845f70f" />
 </p>
 
+- Answer: `1`
+
 ## Task 6
 ## Task 7
