@@ -130,5 +130,21 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 - Answer: `No answer needed`
 
 ## Task 5
+
+### Create a search query to filter the logs where Source_Country is the United States and show logs from User James or Albert. How many records were returned?
+
+- We can type a KQL query in the search bar to get the number of records back
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/88670a9e-41d1-4025-94bb-0c0c2d42b7aa" />
+</p>
+
+### A user Johny Brown was terminated on the 1st of January, 2022. Create a search query to determine how many times a VPN connection was observed after his termination.
+
+- This query was simple as we only had a single record for this person
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/6dbe9634-8d3e-414d-84c2-40cf9845f70f" />
+</p>
+
 ## Task 6
 ## Task 7
