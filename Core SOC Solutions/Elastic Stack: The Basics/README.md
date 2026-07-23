@@ -170,4 +170,34 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 
 - Answer: `274`
 
+- As an extra step, I gave the visualization a name and description and clicked `Save and add to library`
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/ed0f6e6e-902f-4f32-ba55-f2bd9963570f" />
+</p>
+
 ## Task 7
+
+### Create the dashboard containing the available visualizations.
+- For me, I had created these two visualizations (only tables) for this one dashboard and clicked `Save`
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/5dbb3aba-1f52-45e1-9fd3-c55963b1c6c4" />
+</p>
+
+## Skills Learned
+
+* Understood the core components of the Elastic Stack and the roles of Elasticsearch, Logstash, and Kibana in log collection, processing, storage, and visualization
+* Navigated Kibana Discover to explore indexed log data using time-based filtering and field analysis
+* Identified high-volume IP addresses and users by analyzing field statistics and aggregation results
+* Applied filters to isolate specific users, IP addresses, locations, and date ranges during investigations
+* Investigated traffic spikes by narrowing time windows and identifying the primary source responsible for activity
+* Created KQL queries to search logs using multiple conditions with logical operators
+* Performed targeted log analysis to identify VPN activity from terminated users and validate connections
+* Built custom tables by selecting relevant fields to improve log readability and investigation efficiency
+* Created visualizations using Kibana to summarize failed authentication attempts and user activity
+* Developed dashboards that combined multiple visualizations to provide a centralized view of investigation results
+* Strengthened practical SOC investigation skills through log analysis, filtering, querying, and visualization workflows
+
+## Conclusion
+
+This room introduced the fundamentals of using the Elastic Stack for security investigations by demonstrating how SOC analysts analyze and visualize log data within Kibana. Through practical exercises, I learned how to filter large datasets, create KQL queries, investigate activity, and build meaningful visualizations and dashboards. Overall, the room provided a solid foundation for performing efficient log analysis and using Elastic Stack as part of a real-world security monitoring and incident investigation workflow
