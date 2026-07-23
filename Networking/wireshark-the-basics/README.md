@@ -18,16 +18,15 @@ Description:
 Learn the basics of Wireshark and how to analyse protocols and PCAPs.
 ```
 ## Task 1
-Which file is used to simulate the screenshots?
+### Which file is used to simulate the screenshots?
 - Answer: `http1.pcapng`
 
-Which file is used to answer the questions?
+### Which file is used to answer the questions?
 - Answer: `Exercise.pcapng`
 
 ## Task 2
 
-Use the "Exercise.pcapng" file to answer the questions.
-Read the "capture file comments". What is the flag?
+### Use the "Exercise.pcapng" file to answer the questions. Read the "capture file comments". What is the flag?
 
 - To solve this task, I first needed to open the `Exercise.pcapng` file within Wireshark
 
@@ -43,7 +42,7 @@ Read the "capture file comments". What is the flag?
 
 - Answer: `TryHackMe_Wireshark_Demo`
 
-What is the total number of packets?
+### What is the total number of packets?
 
 - We can see at the bottom the total number of packets
 
@@ -51,7 +50,7 @@ What is the total number of packets?
 
 - Answer: `58620`
 
-What is the SHA256 hash value of the capture file?
+### What is the SHA256 hash value of the capture file?
 
 - If we click on `Statistics` again and select `Capture File Properties`, we can see the SHA256 hash
 
@@ -61,7 +60,7 @@ Answer: `f446de335565fb0b0ee5e5a3266703c778b2f3dfad7efeaeccb2da5641a6d6eb`
 
 ## Task 3
 
-Use the "Exercise.pcapng" file to answer the questions. View packet number 38. Which markup language is used under the HTTP protocol?
+### Use the "Exercise.pcapng" file to answer the questions. View packet number 38. Which markup language is used under the HTTP protocol?
 
 - For this task, I clicked on `Go` at the top and selected `Go to packet` and typed in 38 and clicked on the button `Go to packet`
 
@@ -73,7 +72,7 @@ Use the "Exercise.pcapng" file to answer the questions. View packet number 38. W
 
 Answer: `eXtensible Markup Language`
 
-What is the arrival date of the packet? (Answer format: Month/Day/Year)
+### What is the arrival date of the packet? (Answer format: Month/Day/Year)
 
 - If we click where it says `Frame 38` at the top, we can see the arrival date
 
@@ -81,7 +80,7 @@ What is the arrival date of the packet? (Answer format: Month/Day/Year)
 
 - Answer: `05/13/2004`
 
-What is the TTL value?
+### What is the TTL value?
 
 - If we click where it says `Internet Protocol Version 4`, we can see the TTL value
 
@@ -89,7 +88,7 @@ What is the TTL value?
 
 - Answer: `47`
 
-What is the TCP payload size?
+### What is the TCP payload size?
 
 - I scrolled down a little bit and clicked on where it said `Tranmission Control Protocol` and we can see the TCP Payload size
 
@@ -97,8 +96,7 @@ What is the TCP payload size?
 
 - Answer: `424`
 
-What is the e-tag value?
-(For example: 82ecb-6321-9e904585)
+### What is the e-tag value? (For example: 82ecb-6321-9e904585)
 
 - We can find the e-tag by clicking where it says `HyperText Transfer Protocol`
 
@@ -108,7 +106,7 @@ Answer: `9a01a-4696-7e354b00`
 
 ## Task 4
 
-Use the "Exercise.pcapng" file to answer the questions. Search the "r4w" string in packet details. What is the name of artist 1?
+### Use the "Exercise.pcapng" file to answer the questions. Search the "r4w" string in packet details. What is the name of artist 1?
 
 - I first selected `Edit` at the top and clicked on `Find packet` from the dropdown. Then, I kept the default settings of `Packet detail`, `Narrow & Wide`, and `String` and typed in `r4w`
 
@@ -120,8 +118,7 @@ Use the "Exercise.pcapng" file to answer the questions. Search the "r4w" string 
 
 Answer: `r4w8173`
 
-Go to packet 12 and read the packet comments. What is the answer?
-Note: use md5sum <filename> terminal command to get MD5 hash
+### Go to packet 12 and read the packet comments. What is the answer? Note: use md5sum <filename> terminal command to get MD5 hash
 
 - From what we have learnt before, if we go find packet 12, right click and then click on `Packet comment`, we see the following
 
@@ -141,7 +138,7 @@ Note: You will see `This_is_Not_a_Flag_This_is_Not_a_Flag_This_is_Not_a_Flag_Thi
 
 - Answer: `911cd574a42865a956ccde2d04495ebf`
 
-There is a ".txt" file inside the capture file. Find the file and read it; what is the alien's name?
+### There is a ".txt" file inside the capture file. Find the file and read it; what is the alien's name?
 
 - From what we have learnt before, we need to find the packet containing `.txt` and we type as follows
 
@@ -161,7 +158,7 @@ There is a ".txt" file inside the capture file. Find the file and read it; what 
 
 - Answer: `PACKETMASTER`
 
-Look at the expert info section. What is the number of warnings?
+### Look at the expert info section. What is the number of warnings?
 
 - For this one, you need to click on the red circle in the bottom left corner and then it shows you the number of warnings at the top in the `count` section
 
@@ -171,9 +168,7 @@ Look at the expert info section. What is the number of warnings?
 
 ## Task 5
 
-Use the "Exercise.pcapng" file to answer the questions.
-Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter.
-Now, look at the filter pane. What is the filter query?
+### Use the "Exercise.pcapng" file to answer the questions. Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter. Now, look at the filter pane. What is the filter query?
 
 - I went to packet number 4 and right clicked and used the option `Apply as filter`
 
@@ -189,8 +184,7 @@ What is the number of displayed packets?
 
 - Answer: `1089`
 
-Go to packet number 33790, follow the HTTP stream, and look carefully at the responses.
-Looking at the web server's response, what is the total number of artists?
+### Go to packet number 33790, follow the HTTP stream, and look carefully at the responses. Looking at the web server's response, what is the total number of artists?
 
 - I went to packet 33790 and right clicked and selected `Follow` and `HTTP stream` which led me here
 
@@ -202,7 +196,7 @@ Looking at the web server's response, what is the total number of artists?
 
 - Answer: `3`
 
-What is the name of the second artist?
+### What is the name of the second artist?
 
 - We can see the artists name here
 
