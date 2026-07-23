@@ -24,6 +24,19 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 - Answer: `No answer needed`
 
 ## Task 2
+
+### Logstash is used to visualize the data. (yay / nay)
+
+- Logstash is used for parsing, normalizing and filtering data not to visualize the data. That is Kibana's job
+
+- Answer: `nay`
+
+### Elasticstash supports all data formats apart from JSON. (yay / nay)
+
+- Elasticstash has full-text search and analytics engine for JSON-formatted documents
+
+- Answer: `nay`
+
 ## Task 3
 ## Task 4
 ## Task 5
