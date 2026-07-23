@@ -32,6 +32,7 @@ This repository contains all my public write-ups for TryHackMe. I aim to keep al
   - [Core SOC Solutions](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/tree/main/Core%20SOC%20Solutions)
     - [Introduction to EDR](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Core%20SOC%20Solutions/Introduction%20to%20EDR/README.md)
     - [Splunk: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Core%20SOC%20Solutions/Splunk:%20The%20Basics/README.md)
+    - [Elastic Stack: The Basics](https://github.com/iamdhruvtripathi/TryHackMe-Room-Writeups/blob/main/Core%20SOC%20Solutions/Elastic%20Stack%3A%20The%20Basics/README.md)
 ## TryHackMe Profile
 
 Profile: [https://tryhackme.com/](https://tryhackme.com/p/dhruv.tr03)
