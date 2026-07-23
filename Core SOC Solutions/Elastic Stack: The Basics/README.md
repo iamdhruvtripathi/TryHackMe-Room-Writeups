@@ -90,7 +90,7 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 
 ### On 11th Jan, which IP caused the spike observed in the time chart?
 
-- I clicked on this big spike in the chart area
+- I clicked on this big spike in the time interval area
 
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/63ba9f41-23d0-4b9a-8e63-b25da27bb5ea" />
