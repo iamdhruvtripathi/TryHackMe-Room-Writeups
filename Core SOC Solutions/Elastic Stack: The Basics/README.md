@@ -22,3 +22,10 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 ### I am all set!
 
 - Answer: `No answer needed`
+
+## Task 2
+## Task 3
+## Task 4
+## Task 5
+## Task 6
+## Task 7
