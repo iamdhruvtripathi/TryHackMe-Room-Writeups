@@ -96,7 +96,7 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/63ba9f41-23d0-4b9a-8e63-b25da27bb5ea" />
 </p>
 
-- I hovered over the `Source_ip` field and we can see the top IP address with percentage at `98.2%`
+- I hovered over the `Source_ip` field and we can see the top IP address with percentage at `98.9%`
 <p align="center">
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/a7d346a8-90e3-4aea-865e-4b57ceee883d" />
 </p>
