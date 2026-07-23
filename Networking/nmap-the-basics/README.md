@@ -19,14 +19,14 @@ Learn how to use Nmap to discover live hosts, find open ports, and detect servic
 ```
 ## Task 1
 
-It’s time to find out who is listening on the network.
+### It’s time to find out who is listening on the network.
 
 - Answer: `No answer needed`
 
 ## Task 2
 
 
-What is the last IP address that will be scanned when your scan target is `192.168.0.1/27`?
+### What is the last IP address that will be scanned when your scan target is `192.168.0.1/27`?
 
 - Here, I used the `-sL` option with `nmap` when scanning the target `192.168.0.1/27`. This basically allows us to lists the targets without actually scanning them. The last IP address is listed at the bottom
 
@@ -36,7 +36,7 @@ What is the last IP address that will be scanned when your scan target is `192.1
 
 ## Task 3
 
-How many TCP ports are open on the target system at `10.64.138.29`?
+### How many TCP ports are open on the target system at `10.64.138.29`?
 
 - Here, I used the command below where I scanned the target system where I used `-sT` which performs a TCP connect scan and tries to complete the TCP three-way handshake with every target TCP port. We can see below there are 6 TCP ports open
 
@@ -44,7 +44,7 @@ How many TCP ports are open on the target system at `10.64.138.29`?
 
 - Answer: `6`
 
-Find the listening web server on `10.64.138.29` and access it with your browser. What is the flag that appears on its main page?
+### Find the listening web server on `10.64.138.29` and access it with your browser. What is the flag that appears on its main page?
 
 - We know from previous findings that TCP port `8008` is open and the service it is running is `http`. Therefore, it must be the web server and we can connect to it with our browser
 
@@ -58,7 +58,7 @@ Find the listening web server on `10.64.138.29` and access it with your browser.
 
 ## Task 4
 
-What is the name and detected version of the web server running on `10.64.138.29`?
+### What is the name and detected version of the web server running on `10.64.138.29`?
 
 - I used the `-sV` option to show me the specific software version of the web service running on this target
 
@@ -68,7 +68,7 @@ What is the name and detected version of the web server running on `10.64.138.29
 
 ## Task 5
 
-What is the non-numeric equivalent of -T4?
+### What is the non-numeric equivalent of -T4?
 
 - These options control the speed of your scan and there are 5 different speed options such as `T0 (paranoid)`, `T1 (sneaky)`, `T2 (polite)`, `T3 (normal)`, `T4 (aggressive)` and `T5 (insane)`
 
@@ -76,13 +76,13 @@ What is the non-numeric equivalent of -T4?
 
 ## Task 6
 
-What option must you add to your nmap command to enable debugging?
+### What option must you add to your nmap command to enable debugging?
 
 - Answer: `-d`
 
 ## Task 7
 
-What kind of scan will Nmap use if you run `nmap MACHINE_IP` with local user privileges?
+### What kind of scan will Nmap use if you run `nmap MACHINE_IP` with local user privileges?
 
 - For this answer, if running with root privileges, nmap by default uses SYN scan but with local user privileges, it uses connect scan and that is because sending TCP SYN packets requires root privileges
 
