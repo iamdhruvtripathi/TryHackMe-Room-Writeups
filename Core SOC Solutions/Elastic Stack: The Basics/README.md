@@ -139,6 +139,8 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/88670a9e-41d1-4025-94bb-0c0c2d42b7aa" />
 </p>
 
+- Answer: `161`
+
 ### A user Johny Brown was terminated on the 1st of January, 2022. Create a search query to determine how many times a VPN connection was observed after his termination.
 
 - This query was simple as we only had a single record for this person
