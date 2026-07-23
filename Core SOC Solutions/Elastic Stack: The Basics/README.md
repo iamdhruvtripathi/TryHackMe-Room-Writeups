@@ -151,4 +151,21 @@ Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 - Answer: `1`
 
 ## Task 6
+
+### Which user was observed with the greatest number of failed attempts?
+- In the `Visualization` tab, I dragged over the `UserName` into the center white box (where the green donut is) and then filtered at the top for `action: failed` and we can see it was only one person
+
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/b41f4cae-614d-4c79-a49c-5a21cbaa8b40" />
+</p>
+
+- Answer: `Simon`
+
+### How many wrong VPN connection attempts were observed in January?
+
+- If we change the dropdown from a `Donut` to `Table`, we can clearly see the amount of records
+<p align="center">
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/db66f327-d8f3-47c8-947a-ed1d4eaf363e" />
+</p>
+
 ## Task 7
